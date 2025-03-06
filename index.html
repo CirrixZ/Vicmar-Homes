@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicmar Homes - Real Estate</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div id="navbar-container"></div>
+    
+    <!-- Main content will be loaded here -->
+    <div id="content-container">
+        <!-- Default content loads home page -->
+    </div>
+    
+    <!-- Footer -->
+    <div id="footer-container"></div>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery (if you need it) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/filters.js"></script>
+    
+    <!-- Page loader script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load the navigation bar
+            fetch('components/navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-container').innerHTML = data;
+                });
+            
+            // Load the footer
+            fetch('components/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-container').innerHTML = data;
+                });
+            
+            // Load the home page by default
+            fetch('pages/home.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('content-container').innerHTML = data;
+                    // Initialize components after loading content
+                    initializeCarousels();
+                    initializeFilters();
+                });
+        });
+        
+        // Function to load different pages
+        function loadPage(pageName) {
+            fetch(`pages/${pageName}.html`)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('content-container').innerHTML = data;
+                    // Re-initialize components after loading new content
+                    if (pageName === 'home' || pageName === 'properties') {
+                        initializeCarousels();
+                    }
+                    if (pageName === 'properties' || pageName === 'listing') {
+                        initializeFilters();
+                    }
+                });
+        }
+    </script>
+</body>
+</html>
