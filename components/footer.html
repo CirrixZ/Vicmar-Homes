@@ -1,42 +1,58 @@
 <footer class="bg-dark text-light py-4">
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <!-- Logo and Contact Info -->
-            <div class="col-md-4 text-center text-md-start">
-                <img src="../assets/images/logos/vicmar-logo-footer.png" alt="Vicmar Homes Logo 2" class="img-fluid logo-clickable" onclick="loadPage('home'); window.scrollTo({top: 0, behavior: 'smooth'});">
-                <h5>Get in Touch</h5>
-                <p class="mb-1"><i class="fas fa-map-marker-alt"></i> San Jose Sico, Batangas City</p>
-                <p class="mb-1"><i class="fas fa-phone"></i> +6969</p>
-                <p><i class="fas fa-envelope"></i> info@vicmarhomes.com</p>
+            <div class="col-md-4 text-center mb-3 mb-md-0">
+                <img src="../assets/images/logos/vicmar-logo-footer.png" alt="Vicmar Homes Logo" class="img-fluid logo-clickable" style="max-height: 100px;" onclick="loadPage('home'); window.scrollTo({top: 0, behavior: 'smooth'});">
+                <div class="small text-white">
+                    <p class="fs-4">Get In Touch</p>
+                    <p class="mb-1"><i class="fas fa-map-marker-alt me-2"></i>San Jose Sico, Batangas City</p>
+                    <p class="mb-1"><i class="fas fa-phone me-2"></i>+6969</p>
+                    <p class="mb-0"><i class="fas fa-envelope me-2"></i>info@vicmarhomes.com</p>
+                </div>
             </div>
 
-            <!-- Navigation Links -->
-            <div class="col-md-2 mt-5 text-center">
-                <ul class="list-unstyled">
-                    <li><a href="#" class="text-light text-decoration-none">Listings</a></li>
-                    <li><a href="#" class="text-light text-decoration-none">Properties</a></li>
-                </ul>
+            <!-- Quick Links -->
+            <div class="col-md-4 text-center ps-5">
+                <h6 class="text-white mb-3">Quick Links</h6>
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="javascript:void(0);" onclick="loadPage('listing')" class="text-light text-decoration-none">Listings</a></li>
+                            <li class="mb-2"><a href="javascript:void(0);" onclick="loadPage('about-us')" class="text-light text-decoration-none">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="javascript:void(0);" onclick="loadPage('properties')" class="text-light text-decoration-none">Properties</a></li>
+                            <li class="mb-2"><a href="javascript:void(0);" onclick="loadPage('contact-us')" class="text-light text-decoration-none">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-md-2 mt-5 text-center">
-                <ul class="list-unstyled">
-                    <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
-                    <li><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
-                </ul>
+            <!-- Placeholder for alignment -->
+            <div class="col-md-4 text-center">
+                &nbsp;
             </div>
         </div>
 
-        <!-- Social Media Links -->
-        <div class="text-center">
-            <a href="#" class="text-light me-2"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="#" class="text-light me-2"><i class="fab fa-pinterest fa-2x"></i></a>
-            <a href="#" class="text-light me-2"><i class="fab fa-instagram fa-2x"></i></a>
-            <a href="#" class="text-light"><i class="fab fa-twitter fa-2x"></i></a>
+        <!-- Social Media Section -->
+        <div class="text-center mb-3 ps-5">
+            <a href="#" class="text-light me-3"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="text-light me-3"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#" class="text-light me-3"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#" class="text-light"><i class="fab fa-pinterest fa-lg"></i></a>
         </div>
 
-        <!-- Copyright Section -->
-        <div class="text-center mt-3 pt-3 border-top">
-            <p class="mb-0">&copy; 2023 Vicmar Homes, Nemar Realty Corp. All Rights Reserved</p>
+        <!-- Back to Top and Copyright Section -->
+        <div class="text-center ps-5">
+            <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="text-light text-decoration-none mb-3 d-block">
+                <i class="fas fa-chevron-up me-2"></i>Back to Top
+            </a>
+            <div class="mt-3 pt-3 border-top border-secondary">
+                <p class="small text-white mb-0">&copy; 2024 Vicmar Homes, Nemar Realty Corp. All Rights Reserved</p>
+            </div>
         </div>
     </div>
 </footer>
