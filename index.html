@@ -70,11 +70,17 @@
         });
 
         // Function to load different pages
-        function loadPage(pageName) {
+        function loadPage(pageName, params) {
             fetch(`pages/${pageName}.html`)
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('content-container').innerHTML = data;
+
+                    // If it's the property details page and we have a property ID
+                    if (pageName === 'property-details' && params && params.id) {
+                        loadPropertyDetails(params.id);
+                    }
+
                     // Re-initialize components after loading new content
                     if (pageName === 'home' || pageName === 'properties') {
                         initializeCarousels();
@@ -82,6 +88,119 @@
                     if (pageName === 'properties' || pageName === 'listing') {
                         initializeFilters();
                     }
+                })
+                .catch(error => {
+                    console.error('Error loading page:', error);
+                });
+        }
+
+        function loadPropertyDetails(propertyId) {
+            fetch('data/properties.json')
+                .then(response => response.json())
+                .then(properties => {
+                    // Find the property with the matching ID
+                    const property = properties.find(p => p.id === propertyId);
+
+                    if (property) {
+                        // Populate the main property image
+                        const mainImage = document.getElementById('property-main-image');
+                        mainImage.src = `assets/images/Properties/${property.images.main}`;
+                        mainImage.alt = property.name;
+
+                        // Populate property overview details
+                        document.getElementById('property-name').textContent = property.name;
+                        document.getElementById('property-price').textContent = property.price;
+                        document.getElementById('property-lot-area').textContent = property.lotArea;
+                        document.getElementById('property-floor-area').textContent = property.floorArea;
+
+                        // Populate bedroom information
+                        const bedroomsElement = document.getElementById('property-bedrooms');
+                        bedroomsElement.innerHTML = '';
+
+                        // Add default bedroom info
+                        const defaultBedroomPara = document.createElement('p');
+                        defaultBedroomPara.className = 'mb-1';
+                        defaultBedroomPara.textContent = `${property.bedrooms.default}-BEDROOM, ${property.bathrooms}-TOILET&BATH`;
+                        bedroomsElement.appendChild(defaultBedroomPara);
+
+                        // Add optional bedroom configurations
+                        if (property.bedrooms.options && property.bedrooms.options.length > 0) {
+                            property.bedrooms.options.forEach(option => {
+                                const optionPara = document.createElement('p');
+                                optionPara.className = 'mb-1';
+                                optionPara.textContent = `(OPTIONAL ${option}-BEDROOM, ${property.bathrooms}-TOILET&BATH)`;
+                                bedroomsElement.appendChild(optionPara);
+                            });
+                        }
+
+                        // Populate interior images
+                        const interiorImagesContainer = document.getElementById('property-interior-images');
+                        interiorImagesContainer.innerHTML = '';
+
+                        property.images.interior.forEach((imgSrc, index) => {
+                            const imgCol = document.createElement('div');
+                            imgCol.className = 'col';
+
+                            const img = document.createElement('img');
+                            img.src = `assets/images/Properties/interior/${imgSrc}`;
+                            img.alt = `Interior Design ${index + 1}`;
+                            img.className = 'img-fluid rounded';
+
+                            imgCol.appendChild(img);
+                            interiorImagesContainer.appendChild(imgCol);
+                        });
+
+                        // Populate ground floor image and areas
+                        const groundFloorImage = document.getElementById('ground-floor-image');
+                        groundFloorImage.src = `assets/images/Floor_Plan/${property.floorPlans.groundFloor.image}`;
+
+                        const groundFloorAreas = document.getElementById('ground-floor-areas');
+                        // Keep the header row
+                        groundFloorAreas.innerHTML = '<tr><td>Area</td><td>SQM</td></tr>';
+
+                        property.floorPlans.groundFloor.areas.forEach(area => {
+                            const row = document.createElement('tr');
+
+                            const nameCell = document.createElement('td');
+                            nameCell.textContent = area.name;
+
+                            const areaCell = document.createElement('td');
+                            areaCell.textContent = area.area;
+
+                            row.appendChild(nameCell);
+                            row.appendChild(areaCell);
+                            groundFloorAreas.appendChild(row);
+                        });
+
+                        // Populate second floor image and areas
+                        const secondFloorImage = document.getElementById('second-floor-image');
+                        secondFloorImage.src = `assets/images/Floor_Plan/${property.floorPlans.secondFloor.image}`;
+
+                        const secondFloorAreas = document.getElementById('second-floor-areas');
+                        // Keep the header row
+                        secondFloorAreas.innerHTML = '<tr><td>Area</td><td>SQM</td></tr>';
+
+                        if (property.floorPlans.secondFloor.areas && property.floorPlans.secondFloor.areas.length > 0) {
+                            property.floorPlans.secondFloor.areas.forEach(area => {
+                                const row = document.createElement('tr');
+
+                                const nameCell = document.createElement('td');
+                                nameCell.textContent = area.name;
+
+                                const areaCell = document.createElement('td');
+                                areaCell.textContent = area.area;
+
+                                row.appendChild(nameCell);
+                                row.appendChild(areaCell);
+                                secondFloorAreas.appendChild(row);
+                            });
+                        }
+                    } else {
+                        console.error('Property not found:', propertyId);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading property details:', error);
                 });
         }
     </script>

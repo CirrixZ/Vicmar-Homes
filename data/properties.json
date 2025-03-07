@@ -1,0 +1,97 @@
+[
+  {
+    "id": "corner-unit",
+    "name": "Corner Unit",
+    "price": "PHP 5,000,000",
+    "lotArea": "120 sqm",
+    "floorArea": "90 sqm",
+    "bedrooms": {
+      "default": 1,
+      "options": [3, 4]
+    },
+    "bathrooms": 3,
+    "images": {
+      "main": "Duplex-Deluxe1.jpg",
+      "interior": [
+        "interior1.jpg", 
+        "interior2.jpg", 
+        "interior3.jpg", 
+        "interior4.jpg", 
+        "interior5.jpg"
+      ]
+    },
+    "floorPlans": {
+      "groundFloor": {
+        "image": "Duplex-Unit-Deluxe-GF.png",
+        "areas": [
+          {"name": "Parking", "area": "12.50"},
+          {"name": "Porch", "area": "2.72"},
+          {"name": "Foyer", "area": "2.34"},
+          {"name": "Living Area", "area": "15.48"},
+          {"name": "Dining Area", "area": "6.20"},
+          {"name": "Kitchen Area", "area": "7.68"},
+          {"name": "Toilet & Bath", "area": "3.39"},
+          {"name": "Dirty Kitchen", "area": "6.94"}
+        ]
+      },
+      "secondFloor": {
+        "image": "Duplex-Unit-Deluxe-SF.png",
+        "areas": [
+          {"name": "Family Room", "area": "12.50"},
+          {"name": "Master Bedroom", "area": "15.72"},
+          {"name": "Master Toilet & Bath", "area": "4.34"},
+          {"name": "Bedroom 2", "area": "9.48"},
+          {"name": "Bedroom 3", "area": "8.20"},
+          {"name": "Common Toilet & Bath", "area": "3.68"}
+        ]
+      }
+    }
+  },
+  {
+    "id": "end-unit",
+    "name": "End Unit",
+    "price": "PHP 4,500,000",
+    "lotArea": "100 sqm",
+    "floorArea": "85 sqm",
+    "bedrooms": {
+      "default": 2,
+      "options": [3]
+    },
+    "bathrooms": 2,
+    "images": {
+      "main": "End-Unit-Main.jpg",
+      "interior": [
+        "end-interior1.jpg", 
+        "end-interior2.jpg", 
+        "end-interior3.jpg", 
+        "end-interior4.jpg", 
+        "end-interior5.jpg"
+      ]
+    },
+    "floorPlans": {
+      "groundFloor": {
+        "image": "End-Unit-GF.png",
+        "areas": [
+          {"name": "Parking", "area": "12.00"},
+          {"name": "Porch", "area": "2.50"},
+          {"name": "Foyer", "area": "2.00"},
+          {"name": "Living Area", "area": "14.00"},
+          {"name": "Dining Area", "area": "5.50"},
+          {"name": "Kitchen Area", "area": "7.00"},
+          {"name": "Toilet & Bath", "area": "3.00"},
+          {"name": "Utility Room", "area": "5.50"}
+        ]
+      },
+      "secondFloor": {
+        "image": "End-Unit-SF.png",
+        "areas": [
+          {"name": "Family Room", "area": "10.00"},
+          {"name": "Master Bedroom", "area": "14.00"},
+          {"name": "Master Toilet & Bath", "area": "4.00"},
+          {"name": "Bedroom 2", "area": "8.50"},
+          {"name": "Common Toilet & Bath", "area": "3.50"}
+        ]
+      }
+    }
+  }
+]
