@@ -1,24 +1,27 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <img src="../assets/images/logos/transparent-vicmar-logo.png" alt="Vicmar Homes Logo" class="img-fluid logo-clickable" onclick="loadPage('home'); window.scrollTo({top: 0, behavior: 'smooth'});">
+        <img src="../assets/images/logos/transparent-vicmar-logo.png" alt="Vicmar Homes Logo" class="img-fluid logo-clickable me-4" onclick="loadPage('home'); window.scrollTo({top: 0, behavior: 'smooth'});">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link" href="javascript:void(0);" onclick="loadPage('home')">Home</a>
-                <a class="nav-link" href="javascript:void(0);" onclick="loadPage('listing')">Listings</a>
-                <a class="nav-link" href="javascript:void(0);" onclick="loadPage('properties')">Properties</a>
-                <a class="nav-link" href="javascript:void(0);" onclick="loadPage('about-us')">About Us</a>
-                <a class="nav-link" href="javascript:void(0);" onclick="loadPage('contact-us')">Contact Us</a>
-                <a class="nav-link" href="javascript:void(0);" onclick="loadPage('property-details-old')">Property
-                    Details Old</a>
-                <a class="nav-link" href="javascript:void(0);"
-                    onclick="loadPage('property-details', {id: 'corner-unit'})">Corner Unit</a>
-                <a class="nav-link" href="javascript:void(0);"
-                    onclick="loadPage('property-details', {id: 'end-unit'})">End Unit</a>
+                <a class="nav-link px-3 fw-semibold" href="javascript:void(0);" onclick="loadPage('home')">Home</a>
+                <a class="nav-link px-3 fw-semibold" href="javascript:void(0);" onclick="loadPage('listing')">Listings</a>
+                <a class="nav-link px-3 fw-semibold" href="javascript:void(0);" onclick="loadPage('properties')">Properties</a>
+                <a class="nav-link px-3 fw-semibold" href="javascript:void(0);" onclick="loadPage('about-us')">About Us</a>
             </div>
         </div>
+        
+        <!-- Bootstrap Contact Us Button -->
+        <a href="javascript:void(0);" onclick="loadPage('contact-us')" class="btn btn-success rounded-pill d-none d-lg-inline-flex align-items-center me-3">
+            <i class="far fa-envelope me-2"></i>Contact Us
+        </a>
+        
+        <!-- Mobile Version -->
+        <a href="javascript:void(0);" onclick="loadPage('contact-us')" class="btn btn-success rounded-pill w-100 d-lg-none mt-2">
+            <i class="far fa-envelope me-2"></i>Contact Us
+        </a>
     </div>
 </nav>
