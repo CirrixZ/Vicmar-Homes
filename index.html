@@ -30,9 +30,6 @@
     <!-- Footer -->
     <div id="footer-container"></div>
 
-    <!-- Bootstrap JS Bundle with Popper -->
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
     <!-- jQuery (if you need it) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -76,18 +73,23 @@
                 .then(data => {
                     document.getElementById('content-container').innerHTML = data;
 
-                    // If it's the property details page and we have a property ID
+                    // Handle property details page with ID parameter
                     if (pageName === 'property-details' && params && params.id) {
                         loadPropertyDetails(params.id);
                     }
 
-                    // Re-initialize components after loading new content
-                    if (pageName === 'home' || pageName === 'properties') {
-                        initializeCarousels();
-                    }
-                    if (pageName === 'properties' || pageName === 'listing') {
-                        initializeFilters();
-                    }
+                    // Wait a moment for DOM to update before initializing components
+                    setTimeout(() => {
+                        // Re-initialize other components
+                        if (pageName === 'home') {
+                            initializeCarousels();
+                        }
+
+                        if (pageName === 'properties') {
+                            if (typeof initializeCarousels === 'function') initializeCarousels();
+                            if (typeof initializeFilters === 'function') initializeFilters();
+                        }
+                    }, 100);
                 })
                 .catch(error => {
                     console.error('Error loading page:', error);
