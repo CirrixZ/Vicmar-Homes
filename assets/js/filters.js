@@ -2,8 +2,8 @@ function initializeFilters() {
   console.log("Initializing filters...");
 
   // Make sure we're on the properties page by checking for elements
-  if (document.getElementById('location-filter') ||
-    document.getElementById('price-filter') ||
+  if (document.getElementById('location-filter') &&
+    document.getElementById('price-filter') &&
     document.getElementById('type-filter')) {
     console.log("Filter elements found, loading properties...");
     loadProperties();

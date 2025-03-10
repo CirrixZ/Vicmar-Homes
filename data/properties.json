@@ -481,7 +481,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Triple-End-Unit-B-GF.png",
+        "image": "../assets/images/Floor_Plan/Duplex-Unit-Deluxe-GF.png",
         "areas": [
           {
             "name": "Parking",
