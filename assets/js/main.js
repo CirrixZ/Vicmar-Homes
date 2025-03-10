@@ -81,3 +81,19 @@ function displayPropertyCards(properties) {
         cardsContainer.appendChild(card);
     });
 }
+
+// Global variable to track the previous page
+let previousPage = 'properties'; // Default to properties
+
+// Modify your loadPropertyDetails function to capture the origin page
+function loadPropertyDetails(propertyId) {
+    // Capture the current page before loading property details
+    previousPage = window.location.href.includes('listing.html') ? 'listing' : 'properties';
+    
+    // Rest of your existing loadPropertyDetails function...
+}
+
+// Modify the Go Back button's onclick function
+function goBackToPreviousPage() {
+    loadPage(previousPage);
+}
