@@ -1,81 +1,105 @@
 <!-- Hero Section with Background Image -->
 <div class="hero-section position-relative">
     <!-- Background Image -->
-    <img src="../assets/images/properties/all_properties.png" alt="Vicmar Homes Background" class="w-100" style="height: 600px; object-fit: cover;">
-    
+    <img src="../assets/images/properties/all_properties.png" alt="Vicmar Homes Background" class="w-100"
+        style="height: 600px; object-fit: cover;">
+
     <!-- Overlay Content with Carousel -->
-    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center" style="background-color: rgba(255, 255, 255, 0.3); z-index: 1; padding-bottom: 150px;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+        style="background-color: rgba(255, 255, 255, 0.01); z-index: 1; padding-bottom: 0;">
         <!-- Carousel positioned in the middle with top padding -->
-        <div class="carousel-container shadow" style="position: relative; max-width: 800px; margin: 0 auto; z-index: 2;">
+        <div class="carousel-container shadow"
+            style="position: relative; max-width: 800px; margin: 0 auto; z-index: 2;">
             <div id="propertyCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
                 </div>
-                
+
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../assets/images/properties/Duplex-Deluxe1.jpg" class="d-block w-100" alt="Duplex Deluxe House" style="height: 500px; object-fit: cover;">
-                        <div class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
+                    <div class="carousel-item active" style="cursor: pointer;" onclick="loadPage('properties')">
+                        <img src="../assets/images/properties/Duplex-Deluxe1.jpg" class="d-block w-100"
+                            alt="Duplex Deluxe House" style="height: 500px; object-fit: cover;">
+                        <div
+                            class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Duplex Deluxe</h5>
                         </div>
                     </div>
-                    
-                    <div class="carousel-item">
-                        <img src="../assets/images/properties/Triplex3.jpg" class="d-block w-100" alt="Triplex Center Unit" style="height: 500px; object-fit: cover;">
-                        <div class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
+
+                    <div class="carousel-item" style="cursor: pointer;" onclick="loadPage('properties')">
+                        <img src="../assets/images/properties/Triplex3.jpg" class="d-block w-100"
+                            alt="Triplex Center Unit" style="height: 500px; object-fit: cover;">
+                        <div
+                            class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Triplex Center Unit</h5>
                         </div>
                     </div>
-                    
-                    <div class="carousel-item">
-                        <img src="../assets/images/properties/Economic4.jpg" class="d-block w-100" alt="Economic Unit" style="height: 500px; object-fit: cover;">
-                        <div class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
+
+                    <div class="carousel-item" style="cursor: pointer;" onclick="loadPage('properties')">
+                        <img src="../assets/images/properties/Economic4.jpg" class="d-block w-100" alt="Economic Unit"
+                            style="height: 500px; object-fit: cover;">
+                        <div
+                            class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Economic Unit</h5>
                         </div>
                     </div>
-                    
-                    <div class="carousel-item">
-                        <img src="../assets/images/properties/Corner-Unit5.jpg" class="d-block w-100" alt="Corner Unit" style="height: 500px; object-fit: cover;">
-                        <div class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
+
+                    <div class="carousel-item" style="cursor: pointer;" onclick="loadPage('properties')">
+                        <img src="../assets/images/properties/Corner-Unit5.jpg" class="d-block w-100" alt="Corner Unit"
+                            style="height: 500px; object-fit: cover;">
+                        <div
+                            class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Corner Unit</h5>
                         </div>
                     </div>
-                    
-                    <div class="carousel-item">
-                        <img src="../assets/images/properties/Socialized-Row-House6.jpg" class="d-block w-100" alt="Socialized Row Houses" style="height: 500px; object-fit: cover;">
-                        <div class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
+
+                    <div class="carousel-item" style="cursor: pointer;" onclick="loadPage('properties')">
+                        <img src="../assets/images/properties/Socialized-Row-House6.jpg" class="d-block w-100"
+                            alt="Socialized Row Houses" style="height: 500px; object-fit: cover;">
+                        <div
+                            class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Socialized Row House</h5>
                         </div>
                     </div>
-                    
-                    <div class="carousel-item">
-                        <img src="../assets/images/properties/Compound7.jpg" class="d-block w-100" alt="Compound Unit" style="height: 500px; object-fit: cover;">
-                        <div class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
+
+                    <div class="carousel-item" style="cursor: pointer;" onclick="loadPage('properties')">
+                        <img src="../assets/images/properties/Compound7.jpg" class="d-block w-100" alt="Compound Unit"
+                            style="height: 500px; object-fit: cover;">
+                        <div
+                            class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Compound Unit</h5>
                         </div>
                     </div>
                 </div>
-                
-                <button class="carousel-control-prev" type="button" data-bs-target="#propertyCarousel" data-bs-slide="prev">
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#propertyCarousel"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#propertyCarousel" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#propertyCarousel"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
     </div>
-    
+
     <!-- CTA Box positioned at bottom-right -->
-    <div class="position-absolute bottom-0 end-0 p-4 m-4 bg-white bg-opacity-75 rounded shadow-sm" style="z-index: 3; max-width: 300px;">
+    <div class="position-absolute bottom-0 end-0 p-4 m-4 bg-white bg-opacity-50 rounded shadow-sm"
+        style="z-index: 3; max-width: 350px;">
         <h4 class="text-success mb-3">Find Your Dream Home</h4>
-        <button class="btn btn-success w-100" onclick="loadPage('properties')">View All Properties</button>
+        <button class="btn btn-success w-100" onclick="loadPage('properties')">View Properties</button>
     </div>
 </div>

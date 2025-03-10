@@ -104,9 +104,17 @@
                         }
 
                         if (pageName === 'listing') {
-                            if (typeof initializeFilters === 'function') {
-                                initializeFilters();
-                            }
+                            // Direct load of properties for listing page
+                            fetch('data/properties.json')
+                                .then(response => response.json())
+                                .then(properties => {
+                                    if (typeof displayPropertyCards === 'function') {
+                                        displayPropertyCards(properties);
+                                    }
+                                })
+                                .catch(error => {
+                                    console.error('Error loading properties for listing:', error);
+                                });
                         }
                     }, 100); // Short delay to ensure DOM is ready
                 })
