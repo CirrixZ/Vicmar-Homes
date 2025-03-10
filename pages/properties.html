@@ -1,0 +1,96 @@
+<div class="position-relative">
+    <!-- Hero Section with Search Filters -->
+    <div class="hero-section position-relative mb-5">
+      <img src="assets/images/hero-properties.jpg" alt="Vicmar Homes Properties" class="img-fluid w-100" style="max-height: 500px; object-fit: cover;">
+      <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center" style="background-color: rgba(255, 255, 255, 0.7);">
+        <div class="container text-center">
+          <h1 class="display-4 mb-2">Search Your Next Home</h1>
+          <p class="lead mb-4">All Vicmar's Properties and Details Here!</p>
+          
+          <div class="row justify-content-center g-3">
+            <div class="col-md-3">
+              <label for="location-filter" class="form-label">City/Street</label>
+              <select id="location-filter" class="form-select">
+                <option value="all">All Locations</option>
+                <option value="batangas" selected>Batangas</option>
+              </select>
+            </div>
+            
+            <div class="col-md-3">
+              <label for="price-filter" class="form-label">Price Range</label>
+              <select id="price-filter" class="form-select">
+                <option value="all">All Prices</option>
+                <option value="100000-500000">₱100,000 - ₱500,000</option>
+                <option value="500001-1000000">₱500,001 - ₱1,000,000</option>
+                <option value="1000001-1500000">₱1,000,001 - ₱1,500,000</option>
+                <option value="1500001-2000000">₱1,500,001 - ₱2,000,000</option>
+                <option value="2000001-999999999">Above ₱2,000,000</option>
+              </select>
+            </div>
+            
+            <div class="col-md-3">
+              <label for="type-filter" class="form-label">Property Type</label>
+              <select id="type-filter" class="form-select">
+                <option value="all">All Types</option>
+                <option value="duplex">Duplex</option>
+                <option value="triplex">Triplex</option>
+                <option value="corner-unit">Corner Unit</option>
+                <option value="compound-unit">Compound Unit</option>
+                <option value="economic-unit">Economic Unit</option>
+                <option value="socialized-unit">Socialized Unit</option>
+              </select>
+            </div>
+          </div>
+          
+          <!-- Filter Results Box -->
+          <div id="filter-results" class="mt-4 p-3 bg-white rounded shadow-sm">
+            <h5 class="text-success mb-3">Results:</h5>
+            <div id="results-list" class="text-start">
+              <!-- Results will be populated here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Available Listings Section -->
+    <div class="container mb-5">
+      <div class="text-center mb-4">
+        <span class="badge bg-success px-4 py-2 mb-2">Vicinity Map</span>
+        <h2 class="display-5">Available Listing</h2>
+      </div>
+      
+      <div class="map-container mb-4">
+        <img src="assets/images/vicinity-map.jpg" alt="Vicmar Homes Vicinity Map" class="img-fluid w-100 rounded shadow">
+        
+        <!-- Interactive elements on map could be added here -->
+        <!-- For now, I'll include a basic hover element example -->
+        <div class="position-relative">
+          <div class="duplex-info position-absolute top-0 start-0" style="left: 15%; top: 20%;">
+            <div class="card bg-white shadow-sm">
+              <div class="card-body p-2">
+                <h6 class="mb-1">Duplex</h6>
+                <p class="mb-1 small">Lot Area: 1000 SQM</p>
+                <p class="mb-1 small">Bedrooms: 3</p>
+                <span class="badge bg-success">Available</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="triplex-info position-absolute" style="right: 25%; top: 30%;">
+            <div class="card bg-white shadow-sm">
+              <div class="card-body p-2">
+                <h6 class="mb-1">Triplex</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Property Cards Section -->
+      <h3 class="text-center mb-4">Featured Properties</h3>
+      <div id="property-cards" class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Property cards will be populated here -->
+      </div>
+    </div>
+  </div>
