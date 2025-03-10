@@ -103,3 +103,16 @@
         <button class="btn btn-success w-100" onclick="loadPage('properties')">View Properties</button>
     </div>
 </div>
+
+<!-- JavaScript for additional carousel control -->
+<script>
+    // Initialize carousel when the document is ready
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get the carousel element
+        var carousel = new bootstrap.Carousel(document.getElementById('propertyCarousel'), {
+            interval: 2000, // 2 seconds per slide
+            wrap: true,     // Loop back to the first slide
+        });
+        
+    });
+</script>

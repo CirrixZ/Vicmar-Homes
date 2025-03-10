@@ -14,7 +14,7 @@ function initializeCarousels() {
     carousels.forEach((carousel, index) => {
       try {
         const bsCarousel = new bootstrap.Carousel(carousel, {
-          interval: 5000,
+          interval: 2000,
           wrap: true
         });
         console.log(`Carousel #${index + 1} initialized`);

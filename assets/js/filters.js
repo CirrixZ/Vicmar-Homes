@@ -141,7 +141,6 @@ function displayFilteredResults(properties) {
       <div class="d-flex justify-content-between align-items-center">
         <div>
           <h6 class="mb-0">${property.name || 'Unnamed Property'}</h6>
-          <span class="text-muted small">${property.type || 'Property'}</span>
         </div>
         <button class="btn btn-sm btn-outline-success" 
                 onclick="loadPage('property-details', {id: '${property.id}'})">

@@ -547,7 +547,7 @@
   {
     "id": "rowhouse-economic-unit",
     "name": "Rowhouse-Economic Unit",
-    "type": "Economic Unit",
+    "type": "economic-unit",
     "location": "Batangas",
     "price": "4,500,000",
     "lotArea": "100 sqm",
@@ -727,7 +727,7 @@
   {
     "id": "rowhouse-socialized-unit",
     "name": "Rowhouse-Socialized Unit",
-    "type": "Sociolized Unit",
+    "type": "socialized-unit",
     "location": "Batangas",
     "price": "4,500,000",
     "lotArea": "100 sqm",
@@ -792,7 +792,7 @@
   {
     "id": "rowhouse-compound-unit",
     "name": "Rowhouse-Compound Unit",
-    "type": "Compound Unit",
+    "type": "compound-unit",
     "location": "Batangas",
     "price": "4,500,000",
     "lotArea": "100 sqm",
