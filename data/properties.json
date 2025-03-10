@@ -301,7 +301,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Triple-Center-Unit-GF.png",
+        "image": "Triplex-End-Unit-B-GF.png",
         "areas": [
           {
             "name": "Parking",
@@ -338,7 +338,7 @@
         ]
       },
       "secondFloor": {
-        "image": "Triple-Center-Unit-SF.png",
+        "image": "Triplex-End-Unit-B-SF.png",
         "areas": [
           {
             "name": "Family Room",
@@ -366,7 +366,7 @@
   },
   {
     "id": "triplex-end-unit-a",
-    "name": "Triplex Unit",
+    "name": "Triplex-End Unit A",
     "type": "triplex",
     "location": "Batangas",
     "price": "PHP 4,500,000",
@@ -391,7 +391,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Triple-End-Unit-A-GF.png",
+        "image": "Triplex-End-Unit-A-GF.png",
         "areas": [
           {
             "name": "Parking",
@@ -428,7 +428,7 @@
         ]
       },
       "secondFloor": {
-        "image": "Triple-End-Unit-A-SF.png",
+        "image": "Triplex-End-Unit-A-SF.png",
         "areas": [
           {
             "name": "Family Room",
@@ -481,7 +481,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "../assets/images/Floor_Plan/Duplex-Unit-Deluxe-GF.png",
+        "image": "Triplex-End-Unit-B-GF.png",
         "areas": [
           {
             "name": "Parking",
@@ -518,7 +518,7 @@
         ]
       },
       "secondFloor": {
-        "image": "Triple-End-Unit-B-SF.png",
+        "image": "Triplex-End-Unit-B-SF.png",
         "areas": [
           {
             "name": "Family Room",
@@ -725,8 +725,8 @@
     }
   },
   {
-    "id": "rowhouse-sociolized-unit",
-    "name": "Rowhouse-Sociolized Unit",
+    "id": "rowhouse-socialized-unit",
+    "name": "Rowhouse-Socialized Unit",
     "type": "Sociolized Unit",
     "location": "Batangas",
     "price": "4,500,000",
@@ -740,7 +740,7 @@
     },
     "bathrooms": 2,
     "images": {
-      "main": "Sociolized-Row-House6.jpg",
+      "main": "Socialized-Row-House6.jpg",
       "interior": [
         "end-interior1.jpg",
         "end-interior2.jpg",
@@ -751,7 +751,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Rowhouse-Sociolized-Unit-GF.png",
+        "image": "Rowhouse-Socialized-Unit-GF.png",
         "areas": [
           {
             "name": "Parking",
@@ -786,31 +786,6 @@
             "area": "5.50"
           }
         ]
-      },
-      "secondFloor": {
-        "image": "Rowhouse-Sociolized-Unit-SF.png",
-        "areas": [
-          {
-            "name": "Family Room",
-            "area": "10.00"
-          },
-          {
-            "name": "Master Bedroom",
-            "area": "14.00"
-          },
-          {
-            "name": "Master Toilet & Bath",
-            "area": "4.00"
-          },
-          {
-            "name": "Bedroom 2",
-            "area": "8.50"
-          },
-          {
-            "name": "Common Toilet & Bath",
-            "area": "3.50"
-          }
-        ]
       }
     }
   },
@@ -830,7 +805,7 @@
     },
     "bathrooms": 2,
     "images": {
-      "main": "Sociolized-Row-House6.jpg",
+      "main": "Compound7.jpg",
       "interior": [
         "end-interior1.jpg",
         "end-interior2.jpg",
