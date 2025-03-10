@@ -5,3 +5,13 @@ body {
 .logo-clickable {
     cursor: pointer;
 }
+
+.navbar {
+    position: relative;
+    z-index: 1000; /* High z-index to stay on top */
+  }
+  
+  #navbar-container {
+    position: relative;
+    z-index: 1000;
+  }

@@ -2,21 +2,26 @@
   {
     "id": "duplex-unit-deluxe1",
     "name": "Duplex Unit Deluxe",
-    "price": "PHP 1,000,000",
+    "type": "duplex",
+    "location": "Batangas",
+    "price": " 1,000,000",
     "lotArea": "120 sqm",
     "floorArea": "90 sqm",
     "bedrooms": {
       "default": 1,
-      "options": [3, 4]
+      "options": [
+        3,
+        4
+      ]
     },
     "bathrooms": 3,
     "images": {
       "main": "Duplex-Deluxe1.jpg",
       "interior": [
-        "interior1.jpg", 
-        "interior2.jpg", 
-        "interior3.jpg", 
-        "interior4.jpg", 
+        "interior1.jpg",
+        "interior2.jpg",
+        "interior3.jpg",
+        "interior4.jpg",
         "interior5.jpg"
       ]
     },
@@ -24,25 +29,67 @@
       "groundFloor": {
         "image": "Duplex-Unit-Deluxe-GF.png",
         "areas": [
-          {"name": "Parking", "area": "12.50"},
-          {"name": "Porch", "area": "2.72"},
-          {"name": "Foyer", "area": "2.34"},
-          {"name": "Living Area", "area": "15.48"},
-          {"name": "Dining Area", "area": "6.20"},
-          {"name": "Kitchen Area", "area": "7.68"},
-          {"name": "Toilet & Bath", "area": "3.39"},
-          {"name": "Dirty Kitchen", "area": "6.94"}
+          {
+            "name": "Parking",
+            "area": "12.50"
+          },
+          {
+            "name": "Porch",
+            "area": "2.72"
+          },
+          {
+            "name": "Foyer",
+            "area": "2.34"
+          },
+          {
+            "name": "Living Area",
+            "area": "15.48"
+          },
+          {
+            "name": "Dining Area",
+            "area": "6.20"
+          },
+          {
+            "name": "Kitchen Area",
+            "area": "7.68"
+          },
+          {
+            "name": "Toilet & Bath",
+            "area": "3.39"
+          },
+          {
+            "name": "Dirty Kitchen",
+            "area": "6.94"
+          }
         ]
       },
       "secondFloor": {
         "image": "Duplex-Unit-Deluxe-SF.png",
         "areas": [
-          {"name": "Family Room", "area": "12.50"},
-          {"name": "Master Bedroom", "area": "15.72"},
-          {"name": "Master Toilet & Bath", "area": "4.34"},
-          {"name": "Bedroom 2", "area": "9.48"},
-          {"name": "Bedroom 3", "area": "8.20"},
-          {"name": "Common Toilet & Bath", "area": "3.68"}
+          {
+            "name": "Family Room",
+            "area": "12.50"
+          },
+          {
+            "name": "Master Bedroom",
+            "area": "15.72"
+          },
+          {
+            "name": "Master Toilet & Bath",
+            "area": "4.34"
+          },
+          {
+            "name": "Bedroom 2",
+            "area": "9.48"
+          },
+          {
+            "name": "Bedroom 3",
+            "area": "8.20"
+          },
+          {
+            "name": "Common Toilet & Bath",
+            "area": "3.68"
+          }
         ]
       }
     }
@@ -50,21 +97,25 @@
   {
     "id": "duplex-unit-deluxe-suite",
     "name": "Duplex Unit Deluxe Suite",
-    "price": "PHP 4,500,000",
+    "type": "duplex", 
+    "location": "Batangas",
+    "price": "4,500,000",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
       "default": 2,
-      "options": [3]
+      "options": [
+        3
+      ]
     },
     "bathrooms": 2,
     "images": {
       "main": "Duplex-Premiere2.jpg",
       "interior": [
-        "end-interior1.jpg", 
-        "end-interior2.jpg", 
-        "end-interior3.jpg", 
-        "end-interior4.jpg", 
+        "end-interior1.jpg",
+        "end-interior2.jpg",
+        "end-interior3.jpg",
+        "end-interior4.jpg",
         "end-interior5.jpg"
       ]
     },
@@ -72,47 +123,89 @@
       "groundFloor": {
         "image": "Duplex-Unit-Deluxe-Suite-GF.png",
         "areas": [
-          {"name": "Parking", "area": "12.00"},
-          {"name": "Porch", "area": "2.50"},
-          {"name": "Foyer", "area": "2.00"},
-          {"name": "Living Area", "area": "14.00"},
-          {"name": "Dining Area", "area": "5.50"},
-          {"name": "Kitchen Area", "area": "7.00"},
-          {"name": "Toilet & Bath", "area": "3.00"},
-          {"name": "Utility Room", "area": "5.50"}
+          {
+            "name": "Parking",
+            "area": "12.00"
+          },
+          {
+            "name": "Porch",
+            "area": "2.50"
+          },
+          {
+            "name": "Foyer",
+            "area": "2.00"
+          },
+          {
+            "name": "Living Area",
+            "area": "14.00"
+          },
+          {
+            "name": "Dining Area",
+            "area": "5.50"
+          },
+          {
+            "name": "Kitchen Area",
+            "area": "7.00"
+          },
+          {
+            "name": "Toilet & Bath",
+            "area": "3.00"
+          },
+          {
+            "name": "Utility Room",
+            "area": "5.50"
+          }
         ]
       },
       "secondFloor": {
         "image": "Duplex-Unit-Deluxe-Suite-SF.png",
         "areas": [
-          {"name": "Family Room", "area": "10.00"},
-          {"name": "Master Bedroom", "area": "14.00"},
-          {"name": "Master Toilet & Bath", "area": "4.00"},
-          {"name": "Bedroom 2", "area": "8.50"},
-          {"name": "Common Toilet & Bath", "area": "3.50"}
+          {
+            "name": "Family Room",
+            "area": "10.00"
+          },
+          {
+            "name": "Master Bedroom",
+            "area": "14.00"
+          },
+          {
+            "name": "Master Toilet & Bath",
+            "area": "4.00"
+          },
+          {
+            "name": "Bedroom 2",
+            "area": "8.50"
+          },
+          {
+            "name": "Common Toilet & Bath",
+            "area": "3.50"
+          }
         ]
       }
     }
   },
-
   {
     "id": "duplex-unit-premiere",
     "name": "Duplex Unit Premiere",
-    "price": "PHP 4,500,000",
+    "type": "duplex",
+    "location": "Batangas",
+    "price": " 4,500,000",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
       "default": 2,
-      "options": [3]
+      "options": [
+        3
+      ]
     },
     "bathrooms": 2,
     "images": {
       "main": "Duplex-Premiere2.jpg",
       "interior": [
-        "end-interior1.jpg", 
-        "end-interior2.jpg", 
-        "end-interior3.jpg", 
-        "end-interior4.jpg", 
+        "end-interior1.jpg",
+        "end-interior2.jpg",
+        "end-interior3.jpg",
+        "end-interior4.jpg",
         "end-interior5.jpg"
       ]
     },
@@ -120,47 +213,89 @@
       "groundFloor": {
         "image": "Duplex-Unit-Premiere-GF.png",
         "areas": [
-          {"name": "Parking", "area": "12.00"},
-          {"name": "Porch", "area": "2.50"},
-          {"name": "Foyer", "area": "2.00"},
-          {"name": "Living Area", "area": "14.00"},
-          {"name": "Dining Area", "area": "5.50"},
-          {"name": "Kitchen Area", "area": "7.00"},
-          {"name": "Toilet & Bath", "area": "3.00"},
-          {"name": "Utility Room", "area": "5.50"}
+          {
+            "name": "Parking",
+            "area": "12.00"
+          },
+          {
+            "name": "Porch",
+            "area": "2.50"
+          },
+          {
+            "name": "Foyer",
+            "area": "2.00"
+          },
+          {
+            "name": "Living Area",
+            "area": "14.00"
+          },
+          {
+            "name": "Dining Area",
+            "area": "5.50"
+          },
+          {
+            "name": "Kitchen Area",
+            "area": "7.00"
+          },
+          {
+            "name": "Toilet & Bath",
+            "area": "3.00"
+          },
+          {
+            "name": "Utility Room",
+            "area": "5.50"
+          }
         ]
       },
       "secondFloor": {
         "image": "Duplex-Unit-Premiere-SF.png",
         "areas": [
-          {"name": "Family Room", "area": "10.00"},
-          {"name": "Master Bedroom", "area": "14.00"},
-          {"name": "Master Toilet & Bath", "area": "4.00"},
-          {"name": "Bedroom 2", "area": "8.50"},
-          {"name": "Common Toilet & Bath", "area": "3.50"}
+          {
+            "name": "Family Room",
+            "area": "10.00"
+          },
+          {
+            "name": "Master Bedroom",
+            "area": "14.00"
+          },
+          {
+            "name": "Master Toilet & Bath",
+            "area": "4.00"
+          },
+          {
+            "name": "Bedroom 2",
+            "area": "8.50"
+          },
+          {
+            "name": "Common Toilet & Bath",
+            "area": "3.50"
+          }
         ]
       }
     }
   },
-  
   {
     "id": "triple-center-unit",
     "name": "Triplex Center Unit",
-    "price": "PHP 4,500,000",
+    "type": "triplex",
+    "location": "Batangas",
+    "price": "4,500,000",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
       "default": 2,
-      "options": [3]
+      "options": [
+        3
+      ]
     },
     "bathrooms": 2,
     "images": {
       "main": "Triplex3.jpg",
       "interior": [
-        "end-interior1.jpg", 
-        "end-interior2.jpg", 
-        "end-interior3.jpg", 
-        "end-interior4.jpg", 
+        "end-interior1.jpg",
+        "end-interior2.jpg",
+        "end-interior3.jpg",
+        "end-interior4.jpg",
         "end-interior5.jpg"
       ]
     },
@@ -168,47 +303,89 @@
       "groundFloor": {
         "image": "Triple-Center-Unit-GF.png",
         "areas": [
-          {"name": "Parking", "area": "12.00"},
-          {"name": "Porch", "area": "2.50"},
-          {"name": "Foyer", "area": "2.00"},
-          {"name": "Living Area", "area": "14.00"},
-          {"name": "Dining Area", "area": "5.50"},
-          {"name": "Kitchen Area", "area": "7.00"},
-          {"name": "Toilet & Bath", "area": "3.00"},
-          {"name": "Utility Room", "area": "5.50"}
+          {
+            "name": "Parking",
+            "area": "12.00"
+          },
+          {
+            "name": "Porch",
+            "area": "2.50"
+          },
+          {
+            "name": "Foyer",
+            "area": "2.00"
+          },
+          {
+            "name": "Living Area",
+            "area": "14.00"
+          },
+          {
+            "name": "Dining Area",
+            "area": "5.50"
+          },
+          {
+            "name": "Kitchen Area",
+            "area": "7.00"
+          },
+          {
+            "name": "Toilet & Bath",
+            "area": "3.00"
+          },
+          {
+            "name": "Utility Room",
+            "area": "5.50"
+          }
         ]
       },
       "secondFloor": {
         "image": "Triple-Center-Unit-SF.png",
         "areas": [
-          {"name": "Family Room", "area": "10.00"},
-          {"name": "Master Bedroom", "area": "14.00"},
-          {"name": "Master Toilet & Bath", "area": "4.00"},
-          {"name": "Bedroom 2", "area": "8.50"},
-          {"name": "Common Toilet & Bath", "area": "3.50"}
+          {
+            "name": "Family Room",
+            "area": "10.00"
+          },
+          {
+            "name": "Master Bedroom",
+            "area": "14.00"
+          },
+          {
+            "name": "Master Toilet & Bath",
+            "area": "4.00"
+          },
+          {
+            "name": "Bedroom 2",
+            "area": "8.50"
+          },
+          {
+            "name": "Common Toilet & Bath",
+            "area": "3.50"
+          }
         ]
       }
     }
   },
-
   {
     "id": "triplex-end-unit-a",
     "name": "Triplex Unit",
+    "type": "triplex",
+    "location": "Batangas",
     "price": "PHP 4,500,000",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
       "default": 2,
-      "options": [3]
+      "options": [
+        3
+      ]
     },
     "bathrooms": 2,
     "images": {
       "main": "Triplex3.jpg",
       "interior": [
-        "end-interior1.jpg", 
-        "end-interior2.jpg", 
-        "end-interior3.jpg", 
-        "end-interior4.jpg", 
+        "end-interior1.jpg",
+        "end-interior2.jpg",
+        "end-interior3.jpg",
+        "end-interior4.jpg",
         "end-interior5.jpg"
       ]
     },
@@ -216,47 +393,89 @@
       "groundFloor": {
         "image": "Triple-End-Unit-A-GF.png",
         "areas": [
-          {"name": "Parking", "area": "12.00"},
-          {"name": "Porch", "area": "2.50"},
-          {"name": "Foyer", "area": "2.00"},
-          {"name": "Living Area", "area": "14.00"},
-          {"name": "Dining Area", "area": "5.50"},
-          {"name": "Kitchen Area", "area": "7.00"},
-          {"name": "Toilet & Bath", "area": "3.00"},
-          {"name": "Utility Room", "area": "5.50"}
+          {
+            "name": "Parking",
+            "area": "12.00"
+          },
+          {
+            "name": "Porch",
+            "area": "2.50"
+          },
+          {
+            "name": "Foyer",
+            "area": "2.00"
+          },
+          {
+            "name": "Living Area",
+            "area": "14.00"
+          },
+          {
+            "name": "Dining Area",
+            "area": "5.50"
+          },
+          {
+            "name": "Kitchen Area",
+            "area": "7.00"
+          },
+          {
+            "name": "Toilet & Bath",
+            "area": "3.00"
+          },
+          {
+            "name": "Utility Room",
+            "area": "5.50"
+          }
         ]
       },
       "secondFloor": {
         "image": "Triple-End-Unit-A-SF.png",
         "areas": [
-          {"name": "Family Room", "area": "10.00"},
-          {"name": "Master Bedroom", "area": "14.00"},
-          {"name": "Master Toilet & Bath", "area": "4.00"},
-          {"name": "Bedroom 2", "area": "8.50"},
-          {"name": "Common Toilet & Bath", "area": "3.50"}
+          {
+            "name": "Family Room",
+            "area": "10.00"
+          },
+          {
+            "name": "Master Bedroom",
+            "area": "14.00"
+          },
+          {
+            "name": "Master Toilet & Bath",
+            "area": "4.00"
+          },
+          {
+            "name": "Bedroom 2",
+            "area": "8.50"
+          },
+          {
+            "name": "Common Toilet & Bath",
+            "area": "3.50"
+          }
         ]
       }
     }
   },
-
   {
     "id": "triple-end-unit-b",
     "name": "Triple-End Unit B",
-    "price": "PHP 4,500,000",
+    "type": "triplex",
+    "location": "Batangas",
+    "price": "4,500,000",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
       "default": 2,
-      "options": [3]
+      "options": [
+        3
+      ]
     },
     "bathrooms": 2,
     "images": {
       "main": "Triplex3.jpg",
       "interior": [
-        "end-interior1.jpg", 
-        "end-interior2.jpg", 
-        "end-interior3.jpg", 
-        "end-interior4.jpg", 
+        "end-interior1.jpg",
+        "end-interior2.jpg",
+        "end-interior3.jpg",
+        "end-interior4.jpg",
         "end-interior5.jpg"
       ]
     },
@@ -264,47 +483,89 @@
       "groundFloor": {
         "image": "Triple-End-Unit-B-GF.png",
         "areas": [
-          {"name": "Parking", "area": "12.00"},
-          {"name": "Porch", "area": "2.50"},
-          {"name": "Foyer", "area": "2.00"},
-          {"name": "Living Area", "area": "14.00"},
-          {"name": "Dining Area", "area": "5.50"},
-          {"name": "Kitchen Area", "area": "7.00"},
-          {"name": "Toilet & Bath", "area": "3.00"},
-          {"name": "Utility Room", "area": "5.50"}
+          {
+            "name": "Parking",
+            "area": "12.00"
+          },
+          {
+            "name": "Porch",
+            "area": "2.50"
+          },
+          {
+            "name": "Foyer",
+            "area": "2.00"
+          },
+          {
+            "name": "Living Area",
+            "area": "14.00"
+          },
+          {
+            "name": "Dining Area",
+            "area": "5.50"
+          },
+          {
+            "name": "Kitchen Area",
+            "area": "7.00"
+          },
+          {
+            "name": "Toilet & Bath",
+            "area": "3.00"
+          },
+          {
+            "name": "Utility Room",
+            "area": "5.50"
+          }
         ]
       },
       "secondFloor": {
         "image": "Triple-End-Unit-B-SF.png",
         "areas": [
-          {"name": "Family Room", "area": "10.00"},
-          {"name": "Master Bedroom", "area": "14.00"},
-          {"name": "Master Toilet & Bath", "area": "4.00"},
-          {"name": "Bedroom 2", "area": "8.50"},
-          {"name": "Common Toilet & Bath", "area": "3.50"}
+          {
+            "name": "Family Room",
+            "area": "10.00"
+          },
+          {
+            "name": "Master Bedroom",
+            "area": "14.00"
+          },
+          {
+            "name": "Master Toilet & Bath",
+            "area": "4.00"
+          },
+          {
+            "name": "Bedroom 2",
+            "area": "8.50"
+          },
+          {
+            "name": "Common Toilet & Bath",
+            "area": "3.50"
+          }
         ]
       }
     }
   },
-  
   {
     "id": "rowhouse-economic-unit",
     "name": "Rowhouse-Economic Unit",
-    "price": "PHP 4,500,000",
+    "type": "Economic Unit",
+    "location": "Batangas",
+    "price": "4,500,000",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
       "default": 2,
-      "options": [3]
+      "options": [
+        3
+      ]
     },
     "bathrooms": 2,
     "images": {
       "main": "Economic4.jpg",
       "interior": [
-        "end-interior1.jpg", 
-        "end-interior2.jpg", 
-        "end-interior3.jpg", 
-        "end-interior4.jpg", 
+        "end-interior1.jpg",
+        "end-interior2.jpg",
+        "end-interior3.jpg",
+        "end-interior4.jpg",
         "end-interior5.jpg"
       ]
     },
@@ -312,47 +573,89 @@
       "groundFloor": {
         "image": "Economic-Unit-GF.png",
         "areas": [
-          {"name": "Parking", "area": "12.00"},
-          {"name": "Porch", "area": "2.50"},
-          {"name": "Foyer", "area": "2.00"},
-          {"name": "Living Area", "area": "14.00"},
-          {"name": "Dining Area", "area": "5.50"},
-          {"name": "Kitchen Area", "area": "7.00"},
-          {"name": "Toilet & Bath", "area": "3.00"},
-          {"name": "Utility Room", "area": "5.50"}
+          {
+            "name": "Parking",
+            "area": "12.00"
+          },
+          {
+            "name": "Porch",
+            "area": "2.50"
+          },
+          {
+            "name": "Foyer",
+            "area": "2.00"
+          },
+          {
+            "name": "Living Area",
+            "area": "14.00"
+          },
+          {
+            "name": "Dining Area",
+            "area": "5.50"
+          },
+          {
+            "name": "Kitchen Area",
+            "area": "7.00"
+          },
+          {
+            "name": "Toilet & Bath",
+            "area": "3.00"
+          },
+          {
+            "name": "Utility Room",
+            "area": "5.50"
+          }
         ]
       },
       "secondFloor": {
         "image": "Economic-Unit-SF.png",
         "areas": [
-          {"name": "Family Room", "area": "10.00"},
-          {"name": "Master Bedroom", "area": "14.00"},
-          {"name": "Master Toilet & Bath", "area": "4.00"},
-          {"name": "Bedroom 2", "area": "8.50"},
-          {"name": "Common Toilet & Bath", "area": "3.50"}
+          {
+            "name": "Family Room",
+            "area": "10.00"
+          },
+          {
+            "name": "Master Bedroom",
+            "area": "14.00"
+          },
+          {
+            "name": "Master Toilet & Bath",
+            "area": "4.00"
+          },
+          {
+            "name": "Bedroom 2",
+            "area": "8.50"
+          },
+          {
+            "name": "Common Toilet & Bath",
+            "area": "3.50"
+          }
         ]
       }
     }
   },
-
   {
     "id": "corner-unit",
     "name": "Corner Unit",
-    "price": "PHP 4,500,000",
+    "type": "corner-unit",
+    "location": "Batangas",
+    "price": "4,500,000",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
       "default": 2,
-      "options": [3]
+      "options": [
+        3
+      ]
     },
     "bathrooms": 2,
     "images": {
       "main": "Corner-Unit5.jpg",
       "interior": [
-        "end-interior1.jpg", 
-        "end-interior2.jpg", 
-        "end-interior3.jpg", 
-        "end-interior4.jpg", 
+        "end-interior1.jpg",
+        "end-interior2.jpg",
+        "end-interior3.jpg",
+        "end-interior4.jpg",
         "end-interior5.jpg"
       ]
     },
@@ -360,47 +663,89 @@
       "groundFloor": {
         "image": "Corner-Unit-GF.png",
         "areas": [
-          {"name": "Parking", "area": "12.00"},
-          {"name": "Porch", "area": "2.50"},
-          {"name": "Foyer", "area": "2.00"},
-          {"name": "Living Area", "area": "14.00"},
-          {"name": "Dining Area", "area": "5.50"},
-          {"name": "Kitchen Area", "area": "7.00"},
-          {"name": "Toilet & Bath", "area": "3.00"},
-          {"name": "Utility Room", "area": "5.50"}
+          {
+            "name": "Parking",
+            "area": "12.00"
+          },
+          {
+            "name": "Porch",
+            "area": "2.50"
+          },
+          {
+            "name": "Foyer",
+            "area": "2.00"
+          },
+          {
+            "name": "Living Area",
+            "area": "14.00"
+          },
+          {
+            "name": "Dining Area",
+            "area": "5.50"
+          },
+          {
+            "name": "Kitchen Area",
+            "area": "7.00"
+          },
+          {
+            "name": "Toilet & Bath",
+            "area": "3.00"
+          },
+          {
+            "name": "Utility Room",
+            "area": "5.50"
+          }
         ]
       },
       "secondFloor": {
         "image": "Corner-Unit-SF.png",
         "areas": [
-          {"name": "Family Room", "area": "10.00"},
-          {"name": "Master Bedroom", "area": "14.00"},
-          {"name": "Master Toilet & Bath", "area": "4.00"},
-          {"name": "Bedroom 2", "area": "8.50"},
-          {"name": "Common Toilet & Bath", "area": "3.50"}
+          {
+            "name": "Family Room",
+            "area": "10.00"
+          },
+          {
+            "name": "Master Bedroom",
+            "area": "14.00"
+          },
+          {
+            "name": "Master Toilet & Bath",
+            "area": "4.00"
+          },
+          {
+            "name": "Bedroom 2",
+            "area": "8.50"
+          },
+          {
+            "name": "Common Toilet & Bath",
+            "area": "3.50"
+          }
         ]
       }
     }
   },
-
   {
     "id": "rowhouse-sociolized-unit",
     "name": "Rowhouse-Sociolized Unit",
-    "price": "PHP 4,500,000",
+    "type": "Sociolized Unit",
+    "location": "Batangas",
+    "price": "4,500,000",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
       "default": 2,
-      "options": [3]
+      "options": [
+        3
+      ]
     },
     "bathrooms": 2,
     "images": {
       "main": "Sociolized-Row-House6.jpg",
       "interior": [
-        "end-interior1.jpg", 
-        "end-interior2.jpg", 
-        "end-interior3.jpg", 
-        "end-interior4.jpg", 
+        "end-interior1.jpg",
+        "end-interior2.jpg",
+        "end-interior3.jpg",
+        "end-interior4.jpg",
         "end-interior5.jpg"
       ]
     },
@@ -408,24 +753,63 @@
       "groundFloor": {
         "image": "Rowhouse-Sociolized-Unit-GF.png",
         "areas": [
-          {"name": "Parking", "area": "12.00"},
-          {"name": "Porch", "area": "2.50"},
-          {"name": "Foyer", "area": "2.00"},
-          {"name": "Living Area", "area": "14.00"},
-          {"name": "Dining Area", "area": "5.50"},
-          {"name": "Kitchen Area", "area": "7.00"},
-          {"name": "Toilet & Bath", "area": "3.00"},
-          {"name": "Utility Room", "area": "5.50"}
+          {
+            "name": "Parking",
+            "area": "12.00"
+          },
+          {
+            "name": "Porch",
+            "area": "2.50"
+          },
+          {
+            "name": "Foyer",
+            "area": "2.00"
+          },
+          {
+            "name": "Living Area",
+            "area": "14.00"
+          },
+          {
+            "name": "Dining Area",
+            "area": "5.50"
+          },
+          {
+            "name": "Kitchen Area",
+            "area": "7.00"
+          },
+          {
+            "name": "Toilet & Bath",
+            "area": "3.00"
+          },
+          {
+            "name": "Utility Room",
+            "area": "5.50"
+          }
         ]
       },
       "secondFloor": {
         "image": "Rowhouse-Sociolized-Unit-SF.png",
         "areas": [
-          {"name": "Family Room", "area": "10.00"},
-          {"name": "Master Bedroom", "area": "14.00"},
-          {"name": "Master Toilet & Bath", "area": "4.00"},
-          {"name": "Bedroom 2", "area": "8.50"},
-          {"name": "Common Toilet & Bath", "area": "3.50"}
+          {
+            "name": "Family Room",
+            "area": "10.00"
+          },
+          {
+            "name": "Master Bedroom",
+            "area": "14.00"
+          },
+          {
+            "name": "Master Toilet & Bath",
+            "area": "4.00"
+          },
+          {
+            "name": "Bedroom 2",
+            "area": "8.50"
+          },
+          {
+            "name": "Common Toilet & Bath",
+            "area": "3.50"
+          }
         ]
       }
     }
@@ -433,21 +817,25 @@
   {
     "id": "rowhouse-compound-unit",
     "name": "Rowhouse-Compound Unit",
-    "price": "PHP 4,500,000",
+    "type": "Compound Unit",
+    "location": "Batangas",
+    "price": "4,500,000",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
       "default": 2,
-      "options": [3]
+      "options": [
+        3
+      ]
     },
     "bathrooms": 2,
     "images": {
       "main": "Sociolized-Row-House6.jpg",
       "interior": [
-        "end-interior1.jpg", 
-        "end-interior2.jpg", 
-        "end-interior3.jpg", 
-        "end-interior4.jpg", 
+        "end-interior1.jpg",
+        "end-interior2.jpg",
+        "end-interior3.jpg",
+        "end-interior4.jpg",
         "end-interior5.jpg"
       ]
     },
@@ -455,24 +843,63 @@
       "groundFloor": {
         "image": "Compound-Unit-GF.png",
         "areas": [
-          {"name": "Parking", "area": "12.00"},
-          {"name": "Porch", "area": "2.50"},
-          {"name": "Foyer", "area": "2.00"},
-          {"name": "Living Area", "area": "14.00"},
-          {"name": "Dining Area", "area": "5.50"},
-          {"name": "Kitchen Area", "area": "7.00"},
-          {"name": "Toilet & Bath", "area": "3.00"},
-          {"name": "Utility Room", "area": "5.50"}
+          {
+            "name": "Parking",
+            "area": "12.00"
+          },
+          {
+            "name": "Porch",
+            "area": "2.50"
+          },
+          {
+            "name": "Foyer",
+            "area": "2.00"
+          },
+          {
+            "name": "Living Area",
+            "area": "14.00"
+          },
+          {
+            "name": "Dining Area",
+            "area": "5.50"
+          },
+          {
+            "name": "Kitchen Area",
+            "area": "7.00"
+          },
+          {
+            "name": "Toilet & Bath",
+            "area": "3.00"
+          },
+          {
+            "name": "Utility Room",
+            "area": "5.50"
+          }
         ]
       },
       "secondFloor": {
         "image": "Compound-Unit-Loft.png",
         "areas": [
-          {"name": "Family Room", "area": "10.00"},
-          {"name": "Master Bedroom", "area": "14.00"},
-          {"name": "Master Toilet & Bath", "area": "4.00"},
-          {"name": "Bedroom 2", "area": "8.50"},
-          {"name": "Common Toilet & Bath", "area": "3.50"}
+          {
+            "name": "Family Room",
+            "area": "10.00"
+          },
+          {
+            "name": "Master Bedroom",
+            "area": "14.00"
+          },
+          {
+            "name": "Master Toilet & Bath",
+            "area": "4.00"
+          },
+          {
+            "name": "Bedroom 2",
+            "area": "8.50"
+          },
+          {
+            "name": "Common Toilet & Bath",
+            "area": "3.50"
+          }
         ]
       }
     }
