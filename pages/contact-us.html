@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicmar Homes - Contact Us</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap">
+    <style>
+        :root {
+            --primary: #2e7d32;
+            --primary-light: rgba(46, 125, 50, 0.1);
+            --primary-medium: rgba(46, 125, 50, 0.15);
+            --primary-hover: #388E3C;
+            --text-dark: #333;
+            --text-medium: #555;
+            --text-light: #777;
+            --background: #f8fbf6;
+            --white: #fff;
+            --shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+
+        body {
+            background-color: var(--background);
+            background-image: url('asset/img/BG.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            padding: 40px 0;
+        }
+        
+        .main-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background-color: transparent;
+            border-radius: 15px;
+            padding: 30px;
+            
+            
+        }
+        
+        .leaf-decoration {
+            position: absolute;
+            right: -80px;
+            bottom: -50px;
+            opacity: 0.06;
+            z-index: 0;
+            height: 100%;
+            pointer-events: none;
+            max-height: 600px;
+        }
+        
+        .section-title {
+            color: var(--primary);
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            margin-bottom: 15px;
+            font-size: 32px;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            height: 3px;
+            width: 60px;
+            background-color: var(--primary);
+            border-radius: 2px;
+        }
+        
+        .section-description {
+            color: var(--text-medium);
+            margin-bottom: 30px;
+            font-size: 16px;
+            max-width: 550px;
+            line-height: 1.7;
+        }
+        
+        /* Card Styling */
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Form Styling */
+        .form-control, .form-select {
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            padding: 14px 18px;
+            font-size: 15px;
+            background-color: var(--white);
+            transition: var(--transition);
+            margin-bottom: 20px;
+        }
+        
+        .form-control:focus, .form-select:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 0.2rem rgba(46, 125, 50, 0.15);
+        }
+        
+        .form-label {
+            font-weight: 500;
+            margin-bottom: 10px;
+            font-size: 15px;
+            color: var(--text-dark);
+        }
+        
+        textarea.form-control {
+            min-height: 140px;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            border: none;
+            border-radius: 8px;
+            padding: 14px 30px;
+            font-weight: 500;
+            transition: var(--transition);
+            box-shadow: 0 5px 15px rgba(46, 125, 50, 0.2);
+            letter-spacing: 0.3px;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(46, 125, 50, 0.3);
+        }
+        
+        /* Contact Info Styling */
+        .contact-info {
+            padding: 30px;
+            margin-top: 140px;
+        }
+        
+        .contact-info i {
+            color: var(--primary);
+            font-size: 20px;
+            width: 30px;
+            text-align: center;
+            margin-right: 20px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        
+        .contact-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        
+        .contact-text {
+            line-height: 1.4;
+        }
+        
+        .contact-text strong {
+            display: block;
+            margin-bottom: 5px;
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+        
+        .contact-text span {
+            color: var(--text-medium);
+            font-size: 14px;
+        }
+        
+        /* FAQ Styling */
+        .faq-section {
+            margin-top: 170px;
+        }
+        
+        .accordion-item {
+            border: none;
+            margin-bottom: 15px;
+            border-radius: 8px !important;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
+        }
+        
+        .accordion-button {
+            padding: 20px 25px;
+            font-weight: 600;
+            font-size: 16px;
+            color: var(--text-dark);
+            background-color: var(--white);
+            border-radius: 8px !important;
+            border: none;
+            box-shadow: none !important;
+            transition: var(--transition);
+        }
+        
+        .accordion-button:not(.collapsed) {
+            color: var(--primary);
+            background-color: var(--primary-light);
+        }
+        
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: rgba(0, 0, 0, 0.125);
+        }
+        
+        .accordion-button::after {
+            background-size: 16px;
+            color: var(--primary);
+            transition: var(--transition);
+        }
+        
+        /* Add hover effect for accordion buttons */
+        .accordion-button:hover {
+            background-color: var(--primary-medium);
+            color: var(--primary);
+        }
+        
+        .accordion-body {
+            padding: 5px 25px 25px;
+            font-size: 15px;
+            color: var(--text-medium);
+        }
+        
+        .accordion-body ul, .accordion-body ol {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+        
+        .accordion-body li {
+            margin-bottom: 8px;
+        }
+        
+        /* Animation for FAQ */
+        .accordion-collapse.collapsing {
+            transition: height 0.35s ease;
+        }
+
+        @media (max-width: 992px) {
+            .contact-container {
+                order: 2;
+            }
+            
+            .info-container {
+                order: 1;
+                margin-bottom: 30px;
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .section-title {
+                font-size: 24px;
+            }
+            
+            body {
+                padding: 20px 0;
+            }
+            
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container main-container">
+        <!-- Decorative leaf element -->
+        <img src="https://cdn.pixabay.com/photo/2017/01/31/23/42/eucalyptus-2028058_960_720.png" class="leaf-decoration" alt="">
+        
+        <!-- Main Content -->
+        <div class="row g-4">
+            <!-- Contact Form Column -->
+            <div class="col-lg-7 contact-container">
+                <h1 class="section-title">Get In Touch</h1>
+                <p class="section-description">We are here to answer any questions you may have about our properties. Reach out to us and we'll respond as soon as we can.</p>
+                
+                <div class="card p-4 p-lg-5">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="questionType" class="form-label">Ask a Question</label>
+                            <select class="form-select" id="questionType">
+                                <option value="" selected>Select</option>
+                                <option value="property">Property Inquiry</option>
+                                <option value="booking">Booking</option>
+                                <option value="payment">Payment</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" placeholder="How can we help you today?"></textarea>
+                        </div>
+                        
+                        <div class="text-end">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Contact Info Column -->
+            <div class="col-lg-5 info-container">
+                <div class="card contact-info h-100">
+                    <h3 class="section-title">Contact Info</h3>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="contact-text">
+                            <strong>Phone Number</strong>
+                            <span>(+63) XXX XXX XXXX</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-text">
+                            <strong>Our Location</strong>
+                            <span>San Jose Sico, Batangas City</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-text">
+                            <strong>Email Address</strong>
+                            <span>info@vicmarhomes.com</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div class="contact-text">
+                            <strong>Office Hours</strong>
+                            <span>Mon-Fri: 9:00 AM - 5:00 PM</span>
+                            <span>Sat: 9:00 AM - 1:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-description">Quick answers to the questions you may have!</p>
+            
+            <div class="row g-4 mt-2">
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFaqOne">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    What are the payment methods available?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFaqOne">
+                                <div class="accordion-body">
+                                    We accept various payment methods including credit/debit cards, bank transfers, GCash, and PayMaya. Please contact our office for more details.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    What amenities are available on Vicmar?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFaqOne">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Basketball Court</li>
+                                        <li>Village Pavilion</li>
+                                        <li>Community Garden</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFaqTwo">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    What is the process of purchasing a property?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFaqTwo">
+                                <div class="accordion-body">
+                                    <p>The process typically involves:</p>
+                                    <ol>
+                                        <li>Property viewing and selection</li>
+                                        <li>Reservation payment</li>
+                                        <li>Documentation and loan application (if applicable)</li>
+                                        <li>Down payment</li>
+                                        <li>Regular monthly amortization</li>
+                                    </ol>
+                                    <p>Our sales representatives will guide you through each step.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Are there property maintenance fees?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFaqTwo">
+                                <div class="accordion-body">
+                                    Yes, there is a monthly association due that covers security, maintenance of common areas, and other community services. The amount varies depending on the property type and size.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom script for enhanced animations -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add smooth hover effects to form elements
+            const formElements = document.querySelectorAll('.form-control, .form-select');
+            
+            formElements.forEach(element => {
+                element.addEventListener('mouseover', function() {
+                    this.style.boxShadow = '0 0 0 0.15rem rgba(46, 125, 50, 0.1)';
+                });
+                
+                element.addEventListener('mouseout', function() {
+                    if (!this.matches(':focus')) {
+                        this.style.boxShadow = 'none';
+                    }
+                });
+            });
+            
+            // Add animation to accordion items
+            const accordionButtons = document.querySelectorAll('.accordion-button');
+            
+            accordionButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Add pulse effect on click
+                    this.classList.add('animate__animated', 'animate__pulse');
+                    setTimeout(() => {
+                        this.classList.remove('animate__animated', 'animate__pulse');
+                    }, 500);
+                });
+            });
+            
+            // Form validation and submission
+            const contactForm = document.getElementById('contactForm');
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Simple validation
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const message = document.getElementById('message').value;
+                    
+                    if (!name || !email || !message) {
+                        alert('Please fill in all required fields.');
+                        return;
+                    }
+                    
+                    // Simulate successful form submission
+                    const submitBtn = this.querySelector('button[type="submit"]');
+                    const originalText = submitBtn.textContent;
+                    
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Sending...';
+                    
+                    setTimeout(() => {
+                        submitBtn.innerHTML = '<i class="fas fa-check me-2"></i> Message Sent!';
+                        submitBtn.classList.add('btn-success');
+                        
+                        // Reset form after successful submission
+                        setTimeout(() => {
+                            contactForm.reset();
+                            submitBtn.disabled = false;
+                            submitBtn.textContent = originalText;
+                            submitBtn.classList.remove('btn-success');
+                        }, 2000);
+                    }, 1500);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
