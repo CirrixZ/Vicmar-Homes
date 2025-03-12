@@ -83,7 +83,7 @@ function displayPropertyCards(properties) {
 }
 
 // Global variable to track the previous page
-let previousPage = 'properties'; // Default to properties
+let previousPage = 'listing'; // Default to properties
 
 // Modify your loadPropertyDetails function to capture the origin page
 function loadPropertyDetails(propertyId) {

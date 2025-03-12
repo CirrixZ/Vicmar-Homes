@@ -78,6 +78,10 @@
                     return response.text();
                 })
                 .then(data => {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
                     document.getElementById('content-container').innerHTML = data;
 
                     // Handle property details page with ID parameter

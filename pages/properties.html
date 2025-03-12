@@ -7,12 +7,12 @@
         <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
             style="background-color: rgba(255, 255, 255, 0.7); z-index: 1;">
             <div class="container text-center">
-                <h1 class="text-center fw-bold my-4">Search Your Next Home</h1>
-                <p class="lead fw-normal mb-4">All Vicmar's Properties and Details Here!</p>
+                <h1 class="text-center fw-bold my-2">Search Your Next Home</h1>
+                <p class="lead fw-normal mb-6">All Vicmar's Properties and Details Here!</p>
 
                 <div class="row justify-content-center g-3">
                     <div class="col-md-3">
-                        <label for="location-filter" class="form-label">City/Street</label>
+                        <label for="location-filter" class="form-label fw-bold">City/Street</label>
                         <select id="location-filter" class="form-select">
                             <option value="all">All Locations</option>
                             <option value="batangas" selected>Batangas</option>
@@ -20,7 +20,7 @@
                     </div>
 
                     <div class="col-md-3">
-                        <label for="price-filter" class="form-label">Price Range</label>
+                        <label for="price-filter" class="form-label fw-bold">Price Range</label>
                         <select id="price-filter" class="form-select">
                             <option value="all">All Prices</option>
                             <option value="100000-500000">₱100,000 - ₱500,000</option>
@@ -32,7 +32,7 @@
                     </div>
 
                     <div class="col-md-3">
-                        <label for="type-filter" class="form-label">Property Type</label>
+                        <label for="type-filter" class="form-label fw-bold">Property Type</label>
                         <select id="type-filter" class="form-select">
                             <option value="all">All Types</option>
                             <option value="duplex">Duplex</option>
@@ -46,7 +46,7 @@
                 </div>
 
                 <!-- Filter Results Box with fixed height and scrolling -->
-                <div id="filter-results" class="mt-4 p-3 bg-white rounded shadow-sm">
+                <div id="filter-results" class="mt-5 p-3 bg-white rounded shadow-sm">
                     <h5 class="text-success mb-3">Results:</h5>
                     <div id="results-list" class="text-start" style="max-height: 200px; overflow-y: auto;">
                         <!-- Results will be populated here -->
