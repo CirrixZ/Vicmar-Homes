@@ -1,17 +1,63 @@
 body {
-    background-color: #e8f5e9; /* This is a light green color */
+  background-color: #e8f5e9;
+  /* This is a light green color */
 }
 
 .logo-clickable {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .navbar {
-    position: relative;
-    z-index: 1000; /* High z-index to stay on top */
+  position: relative;
+  z-index: 1000;
+  /* High z-index to stay on top */
+}
+
+#navbar-container {
+  position: relative;
+  z-index: 1000;
+}
+
+/* Home page CSS start */
+@media (max-width: 768px) {
+  .hero-section img {
+    height: 600px !important;
   }
-  
-  #navbar-container {
-    position: relative;
-    z-index: 1000;
+
+  .carousel-item img {
+    height: 400px !important;
   }
+
+  .carousel-overlay h5 {
+    font-size: 1rem;
+  }
+
+  .position-absolute.bottom-0.end-0 {
+    bottom: 10px !important;
+    right: 10px !important;
+    max-width: 200px !important;
+  }
+
+  .position-absolute.bottom-0.end-0 h4 {
+    font-size: 1rem;
+  }
+
+  .position-absolute.bottom-0.end-0 h6 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section img {
+    height: 500px !important;
+  }
+
+  .carousel-item img {
+    height: 300px !important;
+  }
+
+  .carousel-container {
+    width: 95% !important;
+  }
+}
+/* Home page CSS end */
