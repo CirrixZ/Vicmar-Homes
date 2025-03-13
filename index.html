@@ -159,7 +159,7 @@
 
                         // Populate property overview details
                         document.getElementById('property-name').textContent = property.name;
-                        document.getElementById('property-price').textContent = property.price;
+                        document.getElementById('property-price').textContent = property.price ? `PHP ${property.price}` : 'Price upon request';
                         document.getElementById('property-lot-area').textContent = property.lotArea;
                         document.getElementById('property-floor-area').textContent = property.floorArea;
 

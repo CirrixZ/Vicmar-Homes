@@ -62,7 +62,7 @@ function displayPropertyCards(properties) {
                onerror="this.src='https://via.placeholder.com/300x200?text=No+Image'">
           <div class="card-body">
             <h5 class="card-title">${property.name || 'Unnamed Property'}</h5>
-            <p class="card-text text-success fw-bold">${property.price || 'Price upon request'}</p>
+            <p class="card-text text-success fw-bold">${property.price ? `PHP ${property.price}` : 'Price upon request'}</p>
             <p class="card-text">
               <small class="text-muted">
                 ${bedroomText} | ${bathroomText} | ${property.floorArea || 'N/A'}
