@@ -2,13 +2,13 @@
     <div class="row g-4">
         <!-- Contact Form Column -->
         <div class="col-lg-7">
-            <div class="card shadow-sm h-100 p-4">
+            <div class="card shadow-sm h-100 p-2">
                 <div class="card-body">
-                    <h1 class="mb-4">Get In Touch</h1>
-                    <p class="text-muted mb-4">We are here to answer any questions you may have about our properties. Reach out to us and we'll respond as soon as we can.</p>
+                    <h1 class="mb-1">Get In Touch</h1>
+                    <p class="text-muted mb-2">We are here to answer any questions you may have about our properties. Reach out to us and we'll respond as soon as we can.</p>
                     
                     <form id="contactForm">
-                        <div class="mb-3">
+                        <div class="mb-1">
                             <label for="questionType" class="form-label">Ask a Question</label>
                             <select class="form-select" id="questionType">
                                 <option value="" selected>Select</option>
@@ -19,22 +19,33 @@
                             </select>
                         </div>
                         
-                        <div class="mb-3">
+                        <div class="mb-1">
                             <label for="name" class="form-label">Your Name</label>
                             <input type="text" class="form-control" id="name" placeholder="Enter your full name">
                         </div>
+
+                        <div class="mb-1">
+                            <label for="contact" class="form-label">Contact Number</label>
+                            <input type="tel" class="form-control" id="contact" 
+                                   pattern="^(09|\+639)\d{9}$" 
+                                   placeholder="Enter your contact number (e.g., 09123456789 or +639123456789)" 
+                                   required>
+                            <div class="invalid-feedback">
+                                Please enter a valid Philippine mobile number starting with 09 or +639
+                            </div>
+                        </div>
                         
-                        <div class="mb-3">
+                        <div class="mb-1">
                             <label for="email" class="form-label">Email Address</label>
                             <input type="email" class="form-control" id="email" placeholder="Enter your email address">
                         </div>
                         
-                        <div class="mb-4">
+                        <div class="mb-2">
                             <label for="message" class="form-label">Message</label>
                             <textarea class="form-control" id="message" placeholder="How can we help you today?"></textarea>
                         </div>
                         
-                        <div class="text-end">
+                        <div class="text-end mb-0">
                             <button type="submit" class="btn btn-success">Send Message</button>
                         </div>
                     </form>

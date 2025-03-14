@@ -1,7 +1,7 @@
 [
   {
     "id": "duplex-unit-deluxe1",
-    "name": "Duplex Unit Deluxe",
+    "name": "Single Attached Unit (Deluxe - Typical)",
     "type": "duplex",
     "location": "Batangas",
     "price": " 1,000,000",
@@ -96,7 +96,7 @@
   },
   {
     "id": "duplex-unit-deluxe-suite",
-    "name": "Duplex Unit Deluxe Suite",
+    "name": "Single Attached Unit (Deluxe - Suite)",
     "type": "duplex", 
     "location": "Batangas",
     "price": "4,500,000",
@@ -186,7 +186,7 @@
   },
   {
     "id": "duplex-unit-premiere",
-    "name": "Duplex Unit Premiere",
+    "name": "Single Attached Unit (Premiere)",
     "type": "duplex",
     "location": "Batangas",
     "price": " 4,500,000",
@@ -275,8 +275,8 @@
     }
   },
   {
-    "id": "triple-center-unit",
-    "name": "Triplex Center Unit",
+    "id": "triplex-center-unit",
+    "name": "Triplex (Center Unit)",
     "type": "triplex",
     "location": "Batangas",
     "price": "4,500,000",
@@ -366,7 +366,7 @@
   },
   {
     "id": "triplex-end-unit-a",
-    "name": "Triplex-End Unit A",
+    "name": "Triplex (End Unit A)",
     "type": "triplex",
     "location": "Batangas",
     "price": "4,500,000",
@@ -455,8 +455,8 @@
     }
   },
   {
-    "id": "triple-end-unit-b",
-    "name": "Triple-End Unit B",
+    "id": "triplex-end-unit-b",
+    "name": "Triplex (End Unit B)",
     "type": "triplex",
     "location": "Batangas",
     "price": "4,500,000",
@@ -546,7 +546,7 @@
   },
   {
     "id": "rowhouse-economic-unit",
-    "name": "Rowhouse-Economic Unit",
+    "name": "Rowhouse (Economic Unit)",
     "type": "economic-unit",
     "location": "Batangas",
     "price": "4,500,000",
@@ -609,6 +609,161 @@
       },
       "secondFloor": {
         "image": "Economic-Unit-SF.png",
+        "areas": [
+          {
+            "name": "Family Room",
+            "area": "10.00"
+          },
+          {
+            "name": "Master Bedroom",
+            "area": "14.00"
+          },
+          {
+            "name": "Master Toilet & Bath",
+            "area": "4.00"
+          },
+          {
+            "name": "Bedroom 2",
+            "area": "8.50"
+          },
+          {
+            "name": "Common Toilet & Bath",
+            "area": "3.50"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "rowhouse-socialized-unit",
+    "name": "Rowhouse (Socialized Unit)",
+    "type": "socialized-unit",
+    "location": "Batangas",
+    "price": "4,500,000",
+    "lotArea": "100 sqm",
+    "floorArea": "85 sqm",
+    "bedrooms": {
+      "default": 2,
+      "options": [
+        3
+      ]
+    },
+    "bathrooms": 2,
+    "images": {
+      "main": "Socialized-Row-House6.jpg",
+      "interior": [
+        "end-interior1.jpg",
+        "end-interior2.jpg",
+        "end-interior3.jpg",
+        "end-interior4.jpg",
+        "end-interior5.jpg"
+      ]
+    },
+    "floorPlans": {
+      "groundFloor": {
+        "image": "Rowhouse-Socialized-Unit-GF.png",
+        "areas": [
+          {
+            "name": "Parking",
+            "area": "12.00"
+          },
+          {
+            "name": "Porch",
+            "area": "2.50"
+          },
+          {
+            "name": "Foyer",
+            "area": "2.00"
+          },
+          {
+            "name": "Living Area",
+            "area": "14.00"
+          },
+          {
+            "name": "Dining Area",
+            "area": "5.50"
+          },
+          {
+            "name": "Kitchen Area",
+            "area": "7.00"
+          },
+          {
+            "name": "Toilet & Bath",
+            "area": "3.00"
+          },
+          {
+            "name": "Utility Room",
+            "area": "5.50"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "rowhouse-compound-unit",
+    "name": "Rowhouse (Compound Unit)",
+    "type": "compound-unit",
+    "location": "Batangas",
+    "price": "4,500,000",
+    "lotArea": "100 sqm",
+    "floorArea": "85 sqm",
+    "bedrooms": {
+      "default": 2,
+      "options": [
+        3
+      ]
+    },
+    "bathrooms": 2,
+    "images": {
+      "main": "Compound7.jpg",
+      "interior": [
+        "end-interior1.jpg",
+        "end-interior2.jpg",
+        "end-interior3.jpg",
+        "end-interior4.jpg",
+        "end-interior5.jpg"
+      ]
+    },
+    "floorPlans": {
+      "groundFloor": {
+        "image": "Compound-Unit-GF.png",
+        "areas": [
+          {
+            "name": "Parking",
+            "area": "12.00"
+          },
+          {
+            "name": "Porch",
+            "area": "2.50"
+          },
+          {
+            "name": "Foyer",
+            "area": "2.00"
+          },
+          {
+            "name": "Living Area",
+            "area": "14.00"
+          },
+          {
+            "name": "Dining Area",
+            "area": "5.50"
+          },
+          {
+            "name": "Kitchen Area",
+            "area": "7.00"
+          },
+          {
+            "name": "Toilet & Bath",
+            "area": "3.00"
+          },
+          {
+            "name": "Utility Room",
+            "area": "5.50"
+          }
+        ]
+      },
+      "secondFloor": {
+        "image": "Compound-Unit-Loft.png",
         "areas": [
           {
             "name": "Family Room",
@@ -699,161 +854,6 @@
       },
       "secondFloor": {
         "image": "Corner-Unit-SF.png",
-        "areas": [
-          {
-            "name": "Family Room",
-            "area": "10.00"
-          },
-          {
-            "name": "Master Bedroom",
-            "area": "14.00"
-          },
-          {
-            "name": "Master Toilet & Bath",
-            "area": "4.00"
-          },
-          {
-            "name": "Bedroom 2",
-            "area": "8.50"
-          },
-          {
-            "name": "Common Toilet & Bath",
-            "area": "3.50"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "rowhouse-socialized-unit",
-    "name": "Rowhouse-Socialized Unit",
-    "type": "socialized-unit",
-    "location": "Batangas",
-    "price": "4,500,000",
-    "lotArea": "100 sqm",
-    "floorArea": "85 sqm",
-    "bedrooms": {
-      "default": 2,
-      "options": [
-        3
-      ]
-    },
-    "bathrooms": 2,
-    "images": {
-      "main": "Socialized-Row-House6.jpg",
-      "interior": [
-        "end-interior1.jpg",
-        "end-interior2.jpg",
-        "end-interior3.jpg",
-        "end-interior4.jpg",
-        "end-interior5.jpg"
-      ]
-    },
-    "floorPlans": {
-      "groundFloor": {
-        "image": "Rowhouse-Socialized-Unit-GF.png",
-        "areas": [
-          {
-            "name": "Parking",
-            "area": "12.00"
-          },
-          {
-            "name": "Porch",
-            "area": "2.50"
-          },
-          {
-            "name": "Foyer",
-            "area": "2.00"
-          },
-          {
-            "name": "Living Area",
-            "area": "14.00"
-          },
-          {
-            "name": "Dining Area",
-            "area": "5.50"
-          },
-          {
-            "name": "Kitchen Area",
-            "area": "7.00"
-          },
-          {
-            "name": "Toilet & Bath",
-            "area": "3.00"
-          },
-          {
-            "name": "Utility Room",
-            "area": "5.50"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "rowhouse-compound-unit",
-    "name": "Rowhouse-Compound Unit",
-    "type": "compound-unit",
-    "location": "Batangas",
-    "price": "4,500,000",
-    "lotArea": "100 sqm",
-    "floorArea": "85 sqm",
-    "bedrooms": {
-      "default": 2,
-      "options": [
-        3
-      ]
-    },
-    "bathrooms": 2,
-    "images": {
-      "main": "Compound7.jpg",
-      "interior": [
-        "end-interior1.jpg",
-        "end-interior2.jpg",
-        "end-interior3.jpg",
-        "end-interior4.jpg",
-        "end-interior5.jpg"
-      ]
-    },
-    "floorPlans": {
-      "groundFloor": {
-        "image": "Compound-Unit-GF.png",
-        "areas": [
-          {
-            "name": "Parking",
-            "area": "12.00"
-          },
-          {
-            "name": "Porch",
-            "area": "2.50"
-          },
-          {
-            "name": "Foyer",
-            "area": "2.00"
-          },
-          {
-            "name": "Living Area",
-            "area": "14.00"
-          },
-          {
-            "name": "Dining Area",
-            "area": "5.50"
-          },
-          {
-            "name": "Kitchen Area",
-            "area": "7.00"
-          },
-          {
-            "name": "Toilet & Bath",
-            "area": "3.00"
-          },
-          {
-            "name": "Utility Room",
-            "area": "5.50"
-          }
-        ]
-      },
-      "secondFloor": {
-        "image": "Compound-Unit-Loft.png",
         "areas": [
           {
             "name": "Family Room",

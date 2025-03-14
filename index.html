@@ -253,6 +253,14 @@
                             secondFloorImage.src = secondFloorPath;
                         }
 
+                        // Conditionally show/hide second floor section
+                        const secondFloorSection = document.getElementById('second-floor-section');
+                        if (property.floorPlans && property.floorPlans.secondFloor) {
+                            secondFloorSection.style.display = 'block';
+                        } else {
+                            secondFloorSection.style.display = 'none';
+                        }
+
                         const secondFloorAreas = document.getElementById('second-floor-areas');
                         if (secondFloorAreas && property.floorPlans && property.floorPlans.secondFloor && property.floorPlans.secondFloor.areas) {
                             // Keep the header row
