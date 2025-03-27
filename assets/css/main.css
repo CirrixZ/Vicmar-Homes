@@ -82,3 +82,83 @@ body {
   transform: translateY(-10px);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
+
+
+.navbar {
+  height: 80px; /* Fixed height */
+  max-height: 80px;
+}
+
+.navbar-brand img {
+  height: 40px; /* Fixed logo height */
+  width: auto;
+}
+
+.navbar .nav-link {
+  font-size: 1rem; /* Standard font size */
+}
+
+/* For smaller screens */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+}
+
+/* Hero section(home page) with consistent proportions */
+.hero-section {
+  position: relative;
+  height: 75vh; /* Scales with viewport height */
+  min-height: 500px; /* Minimum height */
+  max-height: 800px; /* Maximum height */
+  overflow: hidden;
+}
+
+.hero-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Carousel container with consistent size */
+.carousel-container {
+  width: 80%; /* Percentage width for responsiveness */
+  max-width: 1000px; /* Maximum width */
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  height: 55vh; /* Proportional to viewport */
+  min-height: 350px; /* Minimum height */
+  max-height: 600px; /* Maximum height */
+  object-fit: cover;
+  width: 100%;
+}
+
+/* CTA box with consistent positioning */
+.cta-box {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 240px;
+  max-width: 30%;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+/* Typography consistency */
+.hero-section h5 {
+  font-size: clamp(1rem, 2vw, 1.3rem); /* Responsive text size */
+}
+
+.hero-section h6 {
+  font-size: clamp(0.8rem, 1.5vw, 1rem); /* Responsive text size */
+}
