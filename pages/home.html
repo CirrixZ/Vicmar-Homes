@@ -1,16 +1,15 @@
 <!-- Hero Section with Background Image -->
-<div class="hero-section position-relative">
+<div class="hero-section position-relative" style="overflow: hidden;">
     <!-- Background Image -->
-    <img src="assets/images/Properties/all_properties.png" alt="Vicmar Homes Background" class="w-100"
-        style="height: 800px; object-fit: cover;">
-
-    <!-- Overlay Content with Carousel -->
-    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
-        style="background-color: rgba(255, 255, 255, 0.01); z-index: 1; padding-bottom: 0;">
-        <!-- Carousel positioned in the middle with top padding -->
-        <div class="carousel-container shadow"
-            style="position: relative; max-width: 1000px; margin: 0 auto; z-index: 2; width: 90%;">
-            <div id="propertyCarousel" class="carousel slide" data-bs-ride="carousel">
+    <img src="assets/images/Properties/all_properties.png" alt="Vicmar Homes Background" class="w-100" 
+         style="height: 100%; object-fit: cover;">
+    
+    <!-- Overlay with all content inside -->
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(255, 255, 255, 0.3); padding-top: 85px;">
+        
+        <!-- Carousel in a container with fixed width -->
+        <div style="width: 90%; max-width: 800px; margin: auto;">
+            <div id="propertyCarousel" class="carousel slide shadow" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
@@ -29,7 +28,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active" style="cursor: pointer;" onclick="loadPage('listing')">
                         <img src="assets/images/Properties/Duplex-Deluxe1.jpg" class="d-block w-100"
-                            alt="Duplex Deluxe House" style="height: 550px; object-fit: cover;">
+                            alt="Duplex Deluxe House" style="height: 500px; object-fit: cover;">
                         <div
                             class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Duplex Deluxe</h5>
@@ -37,8 +36,8 @@
                     </div>
 
                     <div class="carousel-item" style="cursor: pointer;" onclick="loadPage('listing')">
-                        <img src="assets/images/properties/Triplex3.jpg" class="d-block w-100" alt="Triplex Center Unit"
-                            style="height: 550px; object-fit: cover;">
+                        <img src="assets/images/Properties/Triplex3.jpg" class="d-block w-100" alt="Triplex Center Unit"
+                            style="height: 500px; object-fit: cover;">
                         <div
                             class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Triplex Center Unit</h5>
@@ -46,8 +45,8 @@
                     </div>
 
                     <div class="carousel-item" style="cursor: pointer;" onclick="loadPage('listing')">
-                        <img src="assets/images/properties/Economic4.jpg" class="d-block w-100" alt="Economic Unit"
-                            style="height: 550px; object-fit: cover;">
+                        <img src="assets/images/Properties/Economic4.jpg" class="d-block w-100" alt="Economic Unit"
+                            style="height: 500px; object-fit: cover;">
                         <div
                             class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Economic Unit</h5>
@@ -55,8 +54,8 @@
                     </div>
 
                     <div class="carousel-item" style="cursor: pointer;" onclick="loadPage('listing')">
-                        <img src="assets/images/properties/Corner-Unit5.jpg" class="d-block w-100" alt="Corner Unit"
-                            style="height: 550px; object-fit: cover;">
+                        <img src="assets/images/Properties/Corner-Unit5.jpg" class="d-block w-100" alt="Corner Unit"
+                            style="height: 500px; object-fit: cover;">
                         <div
                             class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Corner Unit</h5>
@@ -64,8 +63,8 @@
                     </div>
 
                     <div class="carousel-item" style="cursor: pointer;" onclick="loadPage('listing')">
-                        <img src="assets/images/properties/Socialized-Row-House6.jpg" class="d-block w-100"
-                            alt="Socialized Row Houses" style="height: 550px; object-fit: cover;">
+                        <img src="assets/images/Properties/Socialized-Row-House6.jpg" class="d-block w-100" alt="Socialized Row Houses"
+                            style="height: 500px; object-fit: cover;">
                         <div
                             class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Socialized Row House</h5>
@@ -73,8 +72,8 @@
                     </div>
 
                     <div class="carousel-item" style="cursor: pointer;" onclick="loadPage('listing')">
-                        <img src="assets/images/properties/Compound7.jpg" class="d-block w-100" alt="Compound Unit"
-                            style="height: 550px; object-fit: cover;">
+                        <img src="assets/images/Properties/Compound7.jpg" class="d-block w-100" alt="Compound Unit"
+                            style="height: 500px; object-fit: cover;">
                         <div
                             class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Compound Unit</h5>
@@ -94,13 +93,12 @@
                 </button>
             </div>
         </div>
-    </div>
-
-    <!-- CTA Box positioned at bottom-right -->
-    <div class="position-absolute bottom-0 end-0 py-2 bg-white bg-opacity-25 rounded shadow-sm"
-        style="z-index: 3; width: 255px; max-width: 30%; height: 70px;">
-        <h5 class="text-center mb-2 text-muted">Find Your Dream Home</h5>
-        <h6 class="text-center text-muted w-100 text-opacity-75">Click Image To View Properties!</h6>
+        
+        <!-- CTA Box -->
+        <div style="position: absolute; bottom: 20px; right: 20px; background: rgba(255,255,255,0.8); padding: 10px; border-radius: 5px; max-width: 250px; z-index: 5;">
+            <h5 class="mb-1 text-muted text-center">Find Your Dream Home</h5>
+            <p class="small text-muted mb-0 text-center">Click Image To View Properties!</p>
+        </div>
     </div>
 </div>
 
@@ -135,3 +133,33 @@
 
     <h6 class="text-center text-muted text-opacity-50 small mt-2">Specifications Subject to Modification</h6>
 </div>
+
+<style>
+    /* For desktop */
+    .hero-section {
+      height: 680px;
+    }
+    
+    /* For mobile */
+    @media (max-width: 768px) {
+      .hero-section {
+        height: 560px;
+      }
+      
+      /* Carousel padding-top */
+      .hero-section > div {
+        padding-top: 70px !important;
+      }
+    }
+    
+    /* For very small screens */
+    @media (max-width: 576px) {
+      .hero-section {
+        height: 500px;
+      }
+      
+      .hero-section > div {
+        padding-top: 50px !important;
+      }
+    }
+</style>
