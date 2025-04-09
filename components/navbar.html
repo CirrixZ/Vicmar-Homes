@@ -14,9 +14,17 @@
                 <a class="nav-link px-3 fw-semibold fs-5" href="javascript:void(0);" onclick="loadPage('about-us')">About Us</a>
                 <a class="nav-link px-3 fw-semibold fs-5 d-lg-none" href="javascript:void(0);" onclick="loadPage('contact-us')">Contact Us</a>
             </div>
-            <a href="javascript:void(0);" onclick="loadPage('contact-us')" class="btn btn-outline-success rounded-pill d-none d-lg-inline-flex align-items-center me-3 fs-5">
-                <i class="far fa-envelope me-2"></i>Contact Us
-            </a>
+            <div class="d-flex align-items-center">
+                <div class="form-check form-switch me-3">
+                    <input class="form-check-input" type="checkbox" id="darkModeToggle" onclick="toggleDarkMode()">
+                    <label class="form-check-label" for="darkModeToggle">
+                        <i class="fas fa-moon"></i>
+                    </label>
+                </div>
+                <a href="javascript:void(0);" onclick="loadPage('contact-us')" class="btn btn-outline-success rounded-pill d-none d-lg-inline-flex align-items-center me-3 fs-5">
+                    <i class="far fa-envelope me-2"></i>Contact Us
+                </a>
+            </div>
         </div>
     </div>
 </nav>

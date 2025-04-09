@@ -1,0 +1,101 @@
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #212529 !important;
+    color: #e8f5e9 !important;
+}
+
+/* Navbar styles for dark mode */
+body.dark-mode .navbar.navbar-light {
+    background-color: #343a40 !important;
+}
+
+body.dark-mode .navbar.navbar-light .navbar-nav .nav-link {
+    color: #e9ecef !important;
+}
+
+body.dark-mode .navbar.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Card styles for dark mode */
+body.dark-mode .card {
+    background-color: #343a40 !important;
+    color: #e9ecef !important;
+    border-color: #495057 !important;
+}
+
+body.dark-mode .card-footer {
+    background-color: #343a40 !important;
+    border-color: #495057 !important;
+}
+
+body.dark-mode .text-muted {
+    color: #adb5bd !important;
+}
+
+/* Button styles for dark mode */
+body.dark-mode .btn-outline-success {
+    color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+body.dark-mode .btn-outline-success:hover {
+    color: #fff !important;
+    background-color: #28a745 !important;
+}
+
+body.dark-mode .btn-success {
+    background-color: #218838 !important;
+    border-color: #1e7e34 !important;
+}
+
+/* Form elements */
+body.dark-mode .form-control {
+    background-color: #495057 !important;
+    border-color: #6c757d !important;
+    color: #e9ecef !important;
+}
+
+/* Footer styles */
+body.dark-mode footer {
+    background-color: #343a40 !important;
+    color: #e9ecef !important;
+}
+
+/* Table styles */
+body.dark-mode table {
+    color: #e9ecef !important;
+}
+
+body.dark-mode .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Modal styles */
+body.dark-mode .modal-content {
+    background-color: #343a40 !important;
+    color: #e9ecef !important;
+}
+
+/* Form switch styling for better visibility */
+body.dark-mode .form-check-input {
+    background-color: #495057 !important;
+    border-color: #6c757d !important;
+}
+
+body.dark-mode .form-check-input:checked {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+/* Icon colors for dark mode */
+body.dark-mode .fas,
+body.dark-mode .far,
+body.dark-mode .fab {
+    color: #e9ecef !important;
+}
+
+/* Style for the toggle icon */
+.form-check-label .fas {
+    font-size: 1.2rem;
+}
