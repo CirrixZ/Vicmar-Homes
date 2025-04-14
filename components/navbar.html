@@ -1,26 +1,29 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
+        <!-- Logo -->
         <img src="assets/images/logos/transparent-vicmar-logo.png" alt="Vicmar Homes Logo" class="img-fluid logo-clickable me-4" onclick="loadPage('home'); window.scrollTo({top: 0, behavior: 'smooth'});">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        
+        <!-- Mobile toggle button with improved styling -->
+        <button class="navbar-toggler border-0 shadow-sm" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+                aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        
+        <!-- Navbar content with improved mobile styling -->
+        <div class="collapse navbar-collapse mt-3 mt-lg-0" id="navbarNavAltMarkup">
             <div class="navbar-nav me-auto">
-                <a class="nav-link px-3 fw-semibold fs-5" href="javascript:void(0);" onclick="loadPage('home')">Home</a>
-                <a class="nav-link px-3 fw-semibold fs-5" href="javascript:void(0);" onclick="loadPage('listing')">Listings</a>
-                <a class="nav-link px-3 fw-semibold fs-5" href="javascript:void(0);" onclick="loadPage('properties')">Properties</a>
-                <a class="nav-link px-3 fw-semibold fs-5" href="javascript:void(0);" onclick="loadPage('amenities')">Amenities</a>
-                <a class="nav-link px-3 fw-semibold fs-5" href="javascript:void(0);" onclick="loadPage('about-us')">About Us</a>
-                <a class="nav-link px-3 fw-semibold fs-5 d-lg-none" href="javascript:void(0);" onclick="loadPage('contact-us')">Contact Us</a>
+                <a class="nav-link px-3 py-2 my-1 my-lg-0 fw-semibold fs-5" href="javascript:void(0);" onclick="loadPage('home')">Home</a>
+                <a class="nav-link px-3 py-2 my-1 my-lg-0 fw-semibold fs-5" href="javascript:void(0);" onclick="loadPage('listing')">Listings</a>
+                <a class="nav-link px-3 py-2 my-1 my-lg-0 fw-semibold fs-5" href="javascript:void(0);" onclick="loadPage('properties')">Properties</a>
+                <a class="nav-link px-3 py-2 my-1 my-lg-0 fw-semibold fs-5" href="javascript:void(0);" onclick="loadPage('amenities')">Amenities</a>
+                <a class="nav-link px-3 py-2 my-1 my-lg-0 fw-semibold fs-5" href="javascript:void(0);" onclick="loadPage('about-us')">About Us</a>
+                <a class="nav-link px-3 py-2 my-1 mb-3 my-lg-0 fw-semibold fs-5 d-lg-none border-top mt-2 pt-3" href="javascript:void(0);" onclick="loadPage('contact-us')">Contact Us</a>
             </div>
-            <div class="d-flex align-items-center">
-                <div class="form-check form-switch me-3">
-                    <input class="form-check-input" type="checkbox" id="darkModeToggle" onclick="toggleDarkMode()">
-                    <label class="form-check-label" for="darkModeToggle">
-                        <i class="fas fa-moon"></i>
-                    </label>
-                </div>
+            
+            <!-- Dark mode toggle and contact button -->
+            <div class="d-flex align-items-center flex-column flex-lg-row">
+                
                 <a href="javascript:void(0);" onclick="loadPage('contact-us')" class="btn btn-outline-success rounded-pill d-none d-lg-inline-flex align-items-center me-3 fs-5">
                     <i class="far fa-envelope me-2"></i>Contact Us
                 </a>
@@ -28,3 +31,33 @@
         </div>
     </div>
 </nav>
+
+<!-- Add this style to your CSS file -->
+<style>
+    /* Creates space between the logo and dropdown menu */
+    @media (max-width: 991.98px) {
+        .navbar-collapse {
+            position: absolute;
+            top: 80%;
+            left: 0;
+            right: 0;
+            background: white;
+            padding: 1rem;
+            z-index: 1000;
+            border-radius: 0 0 0.5rem 0.5rem;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+            transform-origin: top;
+        }
+        
+        .navbar-collapse.collapsing {
+            opacity: 1;
+            transform: scaleY(0);
+        }
+        
+        .navbar-collapse.show {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+</style>
