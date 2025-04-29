@@ -1,0 +1,3831 @@
+{
+  "premiereDuplex": [
+    {
+      "coords": "316,132,283,123,278,168,316,170",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "3",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "5",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "326,135,360,135,360,176,321,171",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "6",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "7",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "369,135,403,138,402,178,364,173",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "8",
+          "lotArea": 33,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "9",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "413,142,446,140,446,180,410,176",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "10",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "11",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "458,145,492,145,487,183,451,181",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "12",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "14",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "499,145,535,148,532,186,496,185",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "15",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "16",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    }
+  ],
+  "deluxeDuplex": [
+    {
+      "coords": "235,171,271,173,266,218,232,214",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "32",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "31",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "275,175,313,176,311,219,276,214",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "30",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "29",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "321,175,357,180,354,221,318,218",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "28",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "27",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "367,178,400,183,397,224,360,221",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "26",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "25",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "410,186,446,186,440,227,405,224",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "24",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "23",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "450,189,486,189,483,227,451,226",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "22",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "21",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "497,191,529,191,529,232,494,231",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "20",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "19",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    }
+  ],
+  "premiereDeluxe3L": [
+    {
+      "coords": "229,238,267,242,262,280,226,279",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "3",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "274,240,308,244,308,282,270,278",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "5",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "6",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "318,244,353,247,350,285,315,284",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "7",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "8",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "363,247,394,252,393,288,360,284",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "9",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "10",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "406,251,440,253,438,292,403,289",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "11",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "12",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "447,253,483,256,481,297,445,291",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "14",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "15",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "491,256,526,258,523,300,487,296",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "16",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "17",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    }
+  ],
+  "deluxeDuplex3L": [
+    {
+      "coords": "226,285,261,286,259,325,225,324",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "33",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "32",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "272,288,305,289,303,329,269,326",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "31",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "30",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "313,289,347,291,345,331,310,329",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "29",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "28",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "357,294,393,295,388,333,355,333",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "27",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "26",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "403,295,435,300,432,335,398,335",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "25",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "24",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "446,297,478,302,475,340,443,339",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "23",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "22",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    },
+    {
+      "coords": "489,302,524,305,521,345,486,341",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "21",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "20",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group1"
+    }
+  ],
+  "duplex1L": [
+    {
+      "coords": "290,52,326,54,322,96,287,91",
+      "info": {
+        "blockNum": "1A",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "3",
+          "lotArea": 87.9,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "5",
+          "lotArea": 87.9,
+          "availability": "Available"
+        }
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "334,57,367,58,365,98,334,96",
+      "info": {
+        "blockNum": "1A",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "6",
+          "lotArea": 87.9,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "7",
+          "lotArea": 87.9,
+          "availability": "Available"
+        }
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "379,61,411,62,408,99,377,97",
+      "info": {
+        "blockNum": "1A",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "8",
+          "lotArea": 87.67,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "9",
+          "lotArea": 86.53,
+          "availability": "Available"
+        }
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "423,60,454,62,451,103,421,103",
+      "info": {
+        "blockNum": "1A",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "10",
+          "lotArea": 85.3,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "11",
+          "lotArea": 84.07,
+          "availability": "Available"
+        }
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "467,67,496,69,495,102,464,101",
+      "info": {
+        "blockNum": "1A",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "12",
+          "lotArea": 82.54,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "14",
+          "lotArea": 81.61,
+          "availability": "Available"
+        }
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "509,70,541,72,539,108,507,106",
+      "info": {
+        "blockNum": "1A",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "15",
+          "lotArea": 80.38,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "16",
+          "lotArea": 79.15,
+          "availability": "Available"
+        }
+      },
+      "group": "group2"
+    }
+  ],
+  "duplex1R": [
+    {
+      "coords": "648,81,679,82,677,117,646,116",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 72.64,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "3",
+          "lotArea": 71.47,
+          "availability": "Available"
+        }
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "691,84,723,86,721,121,689,119",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Duplex Premiere",
+        "unitA": {
+          "lotNum": "5",
+          "lotArea": 70.24,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "6",
+          "lotArea": 69.01,
+          "availability": "Available"
+        }
+      },
+      "group": "group2"
+    }
+  ],
+  "economicRowHouse1R": [
+    {
+      "coords": "725,83,746,85,742,119,724,124",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "7",
+        "lotArea": 45.32,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "744,87,762,91,758,125,739,125",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "8",
+        "lotArea": 44.78,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "759,90,777,90,770,128,754,128",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "9",
+        "lotArea": 44.23,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "769,91,787,88,783,130,767,124",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "10",
+        "lotArea": 43.68,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "786,92,801,93,801,130,785,125",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "11",
+        "lotArea": 43.78,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "797,95,820,99,817,134,796,129",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "12",
+        "lotArea": 46.07,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "815,93,836,97,831,134,815,129",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "13",
+        "lotArea": 45.43,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "831,100,851,101,849,136,833,133",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "14",
+        "lotArea": 44.79,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "845,100,868,93,864,135,845,134",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "15",
+        "lotArea": 44.15,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "863,99,880,101,880,135,858,136",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "16",
+        "lotArea": 43.51,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "877,101,895,104,894,136,875,138",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "17",
+        "lotArea": 42.87,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "895,101,916,98,911,136,892,132",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "18",
+        "lotArea": 45.13,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "909,104,929,104,927,140,911,139",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "19",
+        "lotArea": 44.4,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "927,105,945,108,946,144,931,139",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "20",
+        "lotArea": 43.67,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "947,105,967,112,963,140,942,140,947,112",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "21",
+        "lotArea": 42.93,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "963,113,981,112,977,141,962,140",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "22",
+        "lotArea": 42.2,
+        "availability": "Available"
+      },
+      "group": "group2"
+    },
+    {
+      "coords": "977,113,995,112,996,142,976,140",
+      "info": {
+        "blockNum": "1B",
+        "phase": "Phase 1",
+        "type": "Row house Economic",
+        "lotNum": "23",
+        "lotArea": 41.47,
+        "availability": "Available"
+      },
+      "group": "group2"
+    }
+  ],
+  "premierDuplex2R": [
+    {
+      "coords": "645,155,676,156,675,190,644,189",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Premier",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "3",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "688,158,719,159,719,196,686,194",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Premier",
+        "unitA": {
+          "lotNum": "5",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "6",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "734,160,769,161,764,198,731,196",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Premier",
+        "unitA": {
+          "lotNum": "7",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "8",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "778,163,810,164,806,203,775,200",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Premier",
+        "unitA": {
+          "lotNum": "9",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "10",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "818,166,852,167,850,206,818,209",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Premier",
+        "unitA": {
+          "lotNum": "11",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "12",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "865,170,897,173,892,210,861,207",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Premier",
+        "unitA": {
+          "lotNum": "14",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "15",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "908,174,943,176,938,214,905,209",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Premier",
+        "unitA": {
+          "lotNum": "16",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "17",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "643,199,675,205,673,240,639,237",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "37",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "36",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "686,205,721,205,718,243,682,240",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "35",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "34",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "728,206,725,245,759,246,761,209",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "33",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "32",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "776,207,806,211,805,250,772,248",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "31",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "30",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "820,211,850,214,848,251,815,250",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "29",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "28",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "860,214,894,218,890,255,858,254",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "27",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "26",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "905,218,936,219,936,264,900,257",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "25",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "24",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    }
+  ],
+  "typicalUnit2R": [
+    {
+      "coords": "951,177,1001,180,996,217,951,214",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Triplex",
+        "unitA": {
+          "lotNum": "18",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "19",
+          "lotArea": 44.33,
+          "availability": "Available"
+        },
+        "unitC": {
+          "lotNum": "20",
+          "lotArea": 66.56,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "946,218,997,225,995,261,947,259",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Triplex",
+        "unitA": {
+          "lotNum": "23",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "22",
+          "lotArea": 44.33,
+          "availability": "Available"
+        },
+        "unitC": {
+          "lotNum": "21",
+          "lotArea": 66.39,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    }
+  ],
+  "premiereDuplex4L": [
+    {
+      "coords": "221,349,258,349,255,390,218,387",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "3",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "266,352,301,353,299,395,263,391",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "5",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "6",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "309,353,345,357,342,398,305,395",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "7",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "8",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "354,358,388,362,385,400,351,396",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "9",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "10",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "396,362,431,364,429,403,394,400",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "11",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "12",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "440,366,474,369,471,403,438,402",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "14",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "15",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "484,369,517,372,514,410,480,405",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "16",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "17",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    }
+  ],
+  "deluxeDuplex4L": [
+    {
+      "coords": "219,394,254,398,251,438,215,433",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "33",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "32",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "261,395,297,401,294,438,258,434",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "31",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "30",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "305,402,342,401,339,441,302,439",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "29",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "28",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "347,401,386,408,383,445,346,442",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "27",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "26",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "394,407,428,409,423,448,391,446",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "25",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "24",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "440,411,470,413,468,451,434,448",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "23",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "22",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "482,414,516,415,510,454,478,451",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "21",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "20",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    }
+  ],
+  "premiereDuplex5L": [
+    {
+      "coords": "213,462,213,498,243,500,247,464",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "3",
+          "lotArea": 33,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "261,463,254,501,289,504,292,466",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "5",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "6",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "302,466,300,504,332,508,335,468",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "7",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "8",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "345,470,342,506,376,511,378,471",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "9",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "10",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "388,473,386,509,421,513,422,475",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "11",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "12",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "431,475,431,513,462,516,464,476",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "14",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "15",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "479,476,472,516,505,523,508,481",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "16",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "17",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    }
+  ],
+  "deluxeDuplex5L": [
+    {
+      "coords": "211,508,208,542,241,546,243,508",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "33",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "32",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "254,509,251,547,285,549,287,514",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "31",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "30",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "300,514,295,549,328,552,328,513",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "29",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "28",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "343,514,340,552,371,556,376,516",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "27",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "26",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "386,514,383,556,416,561,418,519",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "25",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "24",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "429,521,426,556,459,562,459,521",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "23",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "22",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "475,524,469,561,502,566,503,524",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "21",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "20",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    }
+  ],
+  "premiereDuplex6L": [
+    {
+      "coords": "207,570,201,607,236,611,236,570",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "3",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "251,575,245,610,282,614,282,575",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "5",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "6",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "294,579,292,614,325,618,325,579",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "7",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "8",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "336,579,336,617,365,619,369,581",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "9",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "10",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "379,581,379,622,408,624,412,583",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "11",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "12",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "423,586,421,623,452,628,454,588",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "14",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "15",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "468,594,464,623,495,631,497,592",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "16",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "17",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    }
+  ],
+  "deluxeDuplex6L": [
+    {
+      "coords": "201,617,201,654,232,658,234,617",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "33",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "32",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "249,619,245,655,275,655,280,621",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "31",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "30",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "293,626,290,662,321,664,323,626",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "29",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "28",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "336,626,333,660,364,665,366,626",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "27",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "26",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "382,631,376,665,409,669,411,627",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "25",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "24",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "424,629,419,669,450,673,453,632",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "23",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "22",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    },
+    {
+      "coords": "463,634,460,675,493,677,496,634",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "21",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "20",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group5"
+    }
+  ],
+  "cornerHomesL": [
+    {
+      "coords": "543,150,538,187,564,190,568,152",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "17",
+          "lotArea": 93.19,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "535,195,535,232,566,234,566,199",
+      "info": {
+        "blockNum": "2",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "18",
+          "lotArea": 96.1,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "534,259,529,296,557,301,560,262",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "18",
+          "lotArea": 96.01,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "528,305,525,340,552,344,555,307",
+      "info": {
+        "blockNum": "6",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "19",
+          "lotArea": 96.02,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "525,370,523,407,545,408,549,373",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "18",
+          "lotArea": 95.93,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "520,416,519,451,544,454,545,416",
+      "info": {
+        "blockNum": "7",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "19",
+          "lotArea": 95.92,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "519,482,513,518,538,521,543,484",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "18",
+          "lotArea": 96,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "514,526,511,562,535,566,539,527",
+      "info": {
+        "blockNum": "12",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "19",
+          "lotArea": 96,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "509,593,508,628,533,631,534,594",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "18",
+          "lotArea": 96,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "504,635,502,674,529,676,530,636",
+      "info": {
+        "blockNum": "14",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "19",
+          "lotArea": 96,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    }
+  ],
+  "cornerHomesR": [
+    {
+      "coords": "610,150,608,186,636,190,636,151",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "1",
+          "lotArea": 90.05,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "607,199,605,233,632,233,633,199",
+      "info": {
+        "blockNum": "3",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "38",
+          "lotArea": 95.14,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "601,261,598,297,623,301,626,261",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "1",
+          "lotArea": 90.01,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "598,305,594,342,620,343,623,310",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "35",
+          "lotArea": 90.1,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "592,371,616,373,616,412,589,406",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "1",
+          "lotArea": 82.9,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "618,376,639,376,635,414,616,411",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "586,417,613,422,612,460,584,459,586,460",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "33",
+          "lotArea": 80.13,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "613,421,633,425,636,460,613,456",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "32",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "584,487,586,521,608,519,610,484",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "1",
+          "lotArea": 90.1,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "579,527,576,570,606,569,608,528",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "29",
+          "lotArea": 90.01,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "574,592,605,591,603,633,576,630",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "1",
+          "lotArea": 92.45,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "572,642,599,643,602,682,570,678",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "25",
+          "lotArea": 91.77,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "610,596,626,599,628,637,603,634",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    },
+    {
+      "coords": "601,643,620,645,622,679,601,681,602,678",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Corner House",
+        "unitA": {
+          "lotNum": "24",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group6"
+    }
+  ],
+  "socializedRowHousesL": [
+    {
+      "coords": "1040,230,1072,248,1065,260,1031,246",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "1",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "1031,245,1026,257,1058,270,1063,259",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "1029,255,1021,269,1055,287,1065,274",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "3",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "1019,267,1016,284,1047,298,1054,288",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "4",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "1018,284,1011,295,1042,310,1052,300",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "5",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "1011,295,1005,308,1036,324,1043,310",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "6",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "1006,310,1000,320,1036,338,1040,325",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "7",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "999,324,991,335,1028,348,1031,338",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "8",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "994,335,990,343,1024,363,1033,348",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "9",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "990,348,986,356,1019,376,1024,358",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "10",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "982,358,979,371,1014,390,1019,374",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "11",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "979,371,971,382,1010,401,1014,388",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "12",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "971,386,966,396,1002,414,1006,401",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "14",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "966,397,958,411,1001,426,1010,414",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "15",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    }
+  ],
+  "compoundUnitsL": [
+    {
+      "coords": "965,412,957,422,989,440,999,430",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "16",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "960,422,952,435,991,451,995,436",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "17",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "953,432,946,444,980,465,986,449",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "18",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "916,533,908,542,946,553,946,545",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "1",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "908,542,903,556,941,571,943,556",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "903,556,897,565,931,582,937,572",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "3",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "899,565,890,580,931,597,936,584",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "4",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "890,582,884,596,924,608,934,597",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "5",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "889,590,882,603,923,616,930,603",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "6",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "881,603,876,620,916,633,921,618",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "7",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "866,629,878,621,917,632,911,644",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "8",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "873,628,868,641,899,655,905,645",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "9",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "863,657,868,643,899,656,894,670",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "10",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "856,671,864,657,897,670,892,681",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "11",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "853,680,860,671,895,684,890,701",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "12",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "845,695,855,680,890,698,882,711",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Socialized",
+        "unitA": {
+          "lotNum": "14",
+          "lotArea": 44.3,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "926,476,941,484,953,457,942,447",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Compound",
+        "unitA": {
+          "lotNum": "20",
+          "lotArea": 40.58,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "941,482,955,488,971,459,952,452",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Compound",
+        "unitA": {
+          "lotNum": "21",
+          "lotArea": 40.58,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "953,486,968,496,981,471,967,460",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Compound",
+        "unitA": {
+          "lotNum": "23",
+          "lotArea": 40.58,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "908,519,927,530,933,503,923,496",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Compound",
+        "unitA": {
+          "lotNum": "1",
+          "lotArea": 40.58,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "942,540,923,530,936,502,953,505",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Compound",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 40.58,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    },
+    {
+      "coords": "952,540,937,531,951,506,968,506",
+      "info": {
+        "blockNum": "9",
+        "phase": "Phase 1",
+        "type": "RowHouse Compound",
+        "unitA": {
+          "lotNum": "3",
+          "lotArea": 40.58,
+          "availability": "Available"
+        }
+      },
+      "group": "group7"
+    }
+  ],
+  "premierDuplex3R": [
+    {
+      "coords": "637,265,669,264,665,306,633,304",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "3",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "679,269,710,271,708,309,678,304",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "5",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "6",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "721,270,755,273,753,310,719,309",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "7",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "8",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "764,275,800,275,796,315,763,313",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "9",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "10",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "812,276,848,280,843,319,807,315",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "11",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "12",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "853,284,884,282,885,319,850,315",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "14",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "15",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "897,284,931,289,928,324,895,319",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "16",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "17",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "941,286,973,289,972,325,937,325",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "18",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "19",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    }
+  ],
+  "deluxeDuplex3R": [
+    {
+      "coords": "631,311,664,314,662,349,630,345",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "34",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "33",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "671,315,709,315,708,354,673,348",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "32",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "31",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "719,319,752,320,749,354,714,356",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "30",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "29",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "762,324,798,325,792,361,759,356",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "28",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "27",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "805,328,840,328,837,362,801,362",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "26",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "25",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "850,328,885,330,880,366,849,361",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "24",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "23",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "892,328,931,331,925,372,892,363",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "22",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "21",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "933,330,960,330,958,367,931,368",
+      "info": {
+        "blockNum": "5",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "20",
+          "lotArea": 78.08,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    }
+  ],
+  "duplexUnit5R": [
+    {
+      "coords": "618,490,650,490,650,525,616,525",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "2",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "3",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "659,488,695,491,694,530,659,525",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "5",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "6",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "704,495,758,497,753,535,705,530",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Triplex",
+        "unitA": {
+          "lotNum": "7",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "8",
+          "lotArea": 44.33,
+          "availability": "Available"
+        },
+        "unitC": {
+          "lotNum": "9",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "764,498,800,502,798,535,763,536",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "10",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "11",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "809,500,840,505,839,540,805,535",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "12",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "14",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "850,506,887,505,882,543,845,540",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "15",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "16",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "616,536,646,534,647,572,613,570",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "28",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "27",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "656,540,690,540,691,577,656,572",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "26",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "25",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "703,539,749,546,751,578,703,574",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Triplex",
+        "unitA": {
+          "lotNum": "24",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "23",
+          "lotArea": 44.33,
+          "availability": "Available"
+        },
+        "unitC": {
+          "lotNum": "22",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "761,543,793,550,793,580,756,579",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "21",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "20",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "803,548,839,550,834,580,801,583",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "19",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "18",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "843,547,869,550,868,584,841,585",
+      "info": {
+        "blockNum": "11",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "17",
+          "lotArea": 80.26,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    }
+  ],
+  "premierDuplex4R": [
+    {
+      "coords": "644,374,679,382,678,416,644,415",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "3",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "5",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "686,381,724,383,722,419,688,416",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "6",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "7",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "730,385,766,387,766,424,729,417",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "8",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "9",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "776,388,814,388,811,427,775,422",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "10",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "11",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "820,391,870,391,868,430,819,424",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Triplex",
+        "unitA": {
+          "lotNum": "12",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "14",
+          "lotArea": 44.33,
+          "availability": "Available"
+        },
+        "unitC": {
+          "lotNum": "15",
+          "lotArea": 66.26,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "875,390,928,396,926,436,875,431",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Triplex",
+        "unitA": {
+          "lotNum": "16",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "17",
+          "lotArea": 44.33,
+          "availability": "Available"
+        },
+        "unitC": {
+          "lotNum": "18",
+          "lotArea": 66.26,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "644,424,674,427,673,464,639,461",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "31",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "30",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "689,426,718,429,716,467,684,463",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "29",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "28",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "729,434,763,431,762,471,729,465",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "27",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "26",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "773,435,805,434,805,474,773,471",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "25",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "24",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "817,436,849,437,850,475,815,471",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "23",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "22",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "860,439,908,441,907,479,859,477",
+      "info": {
+        "blockNum": "8",
+        "phase": "Phase 1",
+        "type": "Triplex",
+        "unitA": {
+          "lotNum": "21",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "20",
+          "lotArea": 44.33,
+          "availability": "Available"
+        },
+        "unitC": {
+          "lotNum": "19",
+          "lotArea": 66.45,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    }
+  ],
+  "premierAndDeluxeDuplex6R": [
+    {
+      "coords": "633,601,669,603,664,633,633,634",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "3",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "5",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "675,605,708,608,708,642,673,637",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "6",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "7",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "719,609,751,609,751,644,719,638",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "8",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "9",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "762,613,795,614,796,645,759,644",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "10",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "11",
+          "lotArea": 66,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "805,614,843,616,839,648,806,647",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "12",
+          "lotArea": 66,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "14",
+          "lotArea": 58.97,
+          "availability": "Available"
+        }
+      },
+      "group": "group3"
+    },
+    {
+      "coords": "623,650,664,650,661,681,623,681",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "23",
+          "lotArea": 65.52,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "22",
+          "lotArea": 65.52,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "669,653,708,657,704,681,669,683",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "21",
+          "lotArea": 65.52,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "20",
+          "lotArea": 65.52,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "712,657,754,655,748,688,710,687",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "19",
+          "lotArea": 65.52,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "18",
+          "lotArea": 65.52,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "757,659,793,663,792,683,756,686",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "17",
+          "lotArea": 65.52,
+          "availability": "Available"
+        },
+        "unitB": {
+          "lotNum": "16",
+          "lotArea": 65.52,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    },
+    {
+      "coords": "797,660,821,662,822,692,800,693",
+      "info": {
+        "blockNum": "15",
+        "phase": "Phase 1",
+        "type": "Duplex Deluxe",
+        "unitA": {
+          "lotNum": "15",
+          "lotArea": 77.64,
+          "availability": "Available"
+        }
+      },
+      "group": "group4"
+    }
+  ]
+}

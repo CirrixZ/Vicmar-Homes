@@ -54,87 +54,236 @@
     </div>
 </div>
 
-<!-- Available Listings Section -->
+<!-- Available Listings Section with Interactive Map -->
 <div class="container mb-5">
     <div class="text-center mb-4">
         <span class="badge bg-success rounded-pill px-4 py-2 mb-2 fs-6">Vicinity Map</span>
         <h2 class="display-5">Available Listing</h2>
+        <p class="text-muted">Hover over properties to see details</p>
     </div>
 
-    <div class="map-container mb-4">
-        <img src="assets/images/vicinity-map.png" alt="Vicmar Homes Vicinity Map"
-            class="img-fluid w-100 rounded shadow">
+    <!-- Interactive Property Map -->
+    <div class="map-container" id="mapContainer">
+        <div class="map-wrapper" id="mapWrapper">
+            <img src="" alt="Property Map" class="map-image"
+                id="baseMap">
+            <div class="property-info" id="propertyInfo"></div>
+
+            <!-- Highlighted areas will be added here by JavaScript -->
+            <div id="highlightContainer"></div>
+        </div>
     </div>
-</div>
-</div>
 
-<style>
-    /* Properties page responsive styles - UPDATED FIX */
-    @media (max-width: 768px) {
-
-        .hero-section img {
-            height: 800px !important;
-        }
-
-        #filter-results {
-            margin-top: 1rem !important;
-        }
-
-        #results-list {
-            max-height: 150px !important;
-        }
-    }
-
-    @media (max-width: 576px) {
-        .hero-section {
+    <style>
+        /* Property Map Styles */
+        .map-container {
             position: relative;
-            padding-bottom: 20px;
+            max-width: 100%;
+            margin: 0 auto;
         }
 
-        .hero-section img {
-            height: 700px !important;
+        .map-wrapper {
+            position: relative;
+            max-width: 100%;
+            overflow: hidden;
         }
 
-        /* Keep the position absolute but adjust for mobile */
-        .hero-section .position-absolute {
-            position: absolute !important;
-            /* Keep as absolute */
-            background-color: rgba(255, 255, 255, 0.7) !important;
-            /* Same opacity as desktop */
-            padding: 1rem;
-            overflow-y: auto;
-            /* Allow scrolling if needed */
+        .map-image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        #highlightContainer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
             height: 100%;
+            pointer-events: none;
         }
 
-        /* Make content more compact */
-        .hero-section h1 {
-            font-size: 1.5rem;
-            margin-top: 0.5rem !important;
+        .highlight-area polygon {
+            fill: rgba(255, 255, 0, 0.3);
+            stroke: transparent;
+            transition: fill 0.2s ease;
         }
 
-        .hero-section .lead {
-            font-size: 0.9rem;
-            margin-bottom: 0.5rem !important;
+        .highlight-area.hover polygon {
+            fill: rgba(255, 255, 0, 0.6);
         }
 
-        .hero-section label {
-            font-size: 0.9rem;
-            margin-bottom: 0.25rem;
+        /* Group-specific colors */
+        .group1-polygon {
+            fill: rgba(255, 255, 0, 0.3);
         }
 
-        .hero-section .form-select {
-            padding: 0.25rem 0.5rem;
-            font-size: 0.9rem;
+        .group2-polygon {
+            fill: rgba(0, 255, 255, 0.3);
         }
 
-        #filter-results {
-            margin-top: 0.5rem !important;
-            padding: 0.5rem !important;
+        /* Property Info Popup */
+        .property-info {
+            position: absolute;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            padding: 0;
+            min-width: 200px;
+            max-width: 300px;
+            z-index: 1000;
+            display: none;
+            overflow: hidden;
         }
 
-        #results-list {
-            max-height: 120px !important;
+        .property-info.visible {
+            display: block;
         }
-    }
-</style>
+
+        .property-header {
+            background: #333;
+            color: white;
+            margin: 0;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .units-container {
+            padding: 10px;
+        }
+
+        .unit-info {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed #ccc;
+        }
+
+        .unit-info:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .unit-title {
+            margin: 0 0 5px 0;
+            font-size: 14px;
+            color: #444;
+        }
+
+        .unit-info p {
+            margin: 5px 0;
+            font-size: 13px;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #666;
+        }
+
+        .property-footer {
+            background: #f5f5f5;
+            padding: 8px;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            border-top: 1px solid #ddd;
+        }
+
+        /* Property Map Styles END */
+
+        /* Properties page responsive styles */
+        @media (max-width: 768px) {
+
+            .hero-section img {
+                height: 800px !important;
+            }
+
+            #filter-results {
+                margin-top: 1rem !important;
+            }
+
+            #results-list {
+                max-height: 150px !important;
+            }
+
+            /* Property Map Styles(responsive) START */
+            .property-info {
+                min-width: 180px;
+                max-width: 250px;
+            }
+
+            .property-header {
+                font-size: 14px;
+                padding: 8px;
+            }
+
+            .unit-title {
+                font-size: 13px;
+            }
+
+            .unit-info p {
+                font-size: 12px;
+            }
+
+            .property-footer {
+                font-size: 11px;
+                padding: 6px;
+            }
+
+            /* Property Map Styles(responsive) END */
+        }
+
+        @media (max-width: 576px) {
+            .hero-section {
+                position: relative;
+                padding-bottom: 20px;
+            }
+
+            .hero-section img {
+                height: 700px !important;
+            }
+
+            /* Keep the position absolute but adjust for mobile */
+            .hero-section .position-absolute {
+                position: absolute !important;
+                /* Keep as absolute */
+                background-color: rgba(255, 255, 255, 0.7) !important;
+                /* Same opacity as desktop */
+                padding: 1rem;
+                overflow-y: auto;
+                /* Allow scrolling if needed */
+                height: 100%;
+            }
+
+            /* Make content more compact */
+            .hero-section h1 {
+                font-size: 1.5rem;
+                margin-top: 0.5rem !important;
+            }
+
+            .hero-section .lead {
+                font-size: 0.9rem;
+                margin-bottom: 0.5rem !important;
+            }
+
+            .hero-section label {
+                font-size: 0.9rem;
+                margin-bottom: 0.25rem;
+            }
+
+            .hero-section .form-select {
+                padding: 0.25rem 0.5rem;
+                font-size: 0.9rem;
+            }
+
+            #filter-results {
+                margin-top: 0.5rem !important;
+                padding: 0.5rem !important;
+            }
+
+            #results-list {
+                max-height: 120px !important;
+            }
+        }
+    </style>
