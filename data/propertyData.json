@@ -682,10 +682,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "7",
-        "lotArea": 45.32,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "7",
+          "lotArea": 45.32,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -694,10 +696,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "8",
-        "lotArea": 44.78,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "8",
+          "lotArea": 44.78,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -706,10 +710,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "9",
-        "lotArea": 44.23,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "9",
+          "lotArea": 44.23,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -718,10 +724,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "10",
-        "lotArea": 43.68,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "10",
+          "lotArea": 43.68,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -730,10 +738,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "11",
-        "lotArea": 43.78,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "11",
+          "lotArea": 43.78,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -742,10 +752,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "12",
-        "lotArea": 46.07,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "12",
+          "lotArea": 46.07,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -754,10 +766,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "13",
-        "lotArea": 45.43,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "13",
+          "lotArea": 45.43,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -766,10 +780,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "14",
-        "lotArea": 44.79,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "14",
+          "lotArea": 44.79,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -778,10 +794,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "15",
-        "lotArea": 44.15,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "15",
+          "lotArea": 44.15,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -790,10 +808,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "16",
-        "lotArea": 43.51,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "16",
+          "lotArea": 43.51,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -802,10 +822,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "17",
-        "lotArea": 42.87,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "17",
+          "lotArea": 42.87,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -814,10 +836,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "18",
-        "lotArea": 45.13,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "18",
+          "lotArea": 45.13,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -826,10 +850,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "19",
-        "lotArea": 44.4,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "19",
+          "lotArea": 44.4,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -838,10 +864,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "20",
-        "lotArea": 43.67,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "20",
+          "lotArea": 43.67,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -850,10 +878,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "21",
-        "lotArea": 42.93,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "21",
+          "lotArea": 42.93,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -862,10 +892,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "22",
-        "lotArea": 42.2,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "22",
+          "lotArea": 42.2,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     },
@@ -874,10 +906,12 @@
       "info": {
         "blockNum": "1B",
         "phase": "Phase 1",
-        "type": "Row house Economic",
-        "lotNum": "23",
-        "lotArea": 41.47,
-        "availability": "Available"
+        "type": "Duplex Economic",
+        "unitA": {
+          "lotNum": "23",
+          "lotArea": 41.47,
+          "availability": "Available"
+        }
       },
       "group": "group2"
     }

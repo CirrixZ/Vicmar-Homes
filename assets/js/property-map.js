@@ -1,7 +1,19 @@
 // Property data is loaded from propertyData.json
 
+// Global variables for map elements
+let baseMap;
+let mapWrapper;
+let propertyInfo;
+let highlightContainer;
+
 // Function to show property info popup with flexible number of units
 function showPropertyInfo(event, info) {
+    // Ensure propertyInfo is available
+    if (!propertyInfo) {
+        console.error("Property info element not found");
+        return;
+    }
+    
     // Get pointer position
     const rect = mapWrapper.getBoundingClientRect();
     const x = event.clientX - rect.left;
@@ -22,31 +34,50 @@ function showPropertyInfo(event, info) {
     if (units.length === 0 && info.lotNum) {
         // Single unit property (like row house)
         popupHTML += `
-            <div style="text-align: center; padding: 10px;">
-                <h4>Lot ${info.lotNum}</h4>
-                <table style="margin: 0 auto;">
+            <div class="single-unit">
+                <table class="single-unit-table">
                     <tr>
-                        <td style="text-align: right; padding-right: 10px;">Lot Area:</td>
-                        <td style="text-align: left;">${info.lotArea} sqm</td>
+                        <td>Lot Number:</td>
+                        <td>${info.lotNum}</td>
                     </tr>
                     <tr>
-                        <td style="text-align: right; padding-right: 10px;">Status:</td>
-                        <td style="text-align: left;">${info.availability}</td>
+                        <td>Lot Area:</td>
+                        <td>${info.lotArea} sqm</td>
+                    </tr>
+                    <tr>
+                        <td>Status:</td>
+                        <td>${info.availability}</td>
                     </tr>
                 </table>
             </div>
         `;
     } else if (units.length > 0) {
-        // Multi-unit property (duplex, triplex) - maintain original layout
-        popupHTML += '<div class="units-container">';
+        // Add class based on number of units
+        let unitContainerClass = '';
+        if (units.length === 2) unitContainerClass = 'two-units';
+        else if (units.length === 3) unitContainerClass = 'three-units';
+        
+        // Multi-unit property (duplex, triplex)
+        popupHTML += `<div class="units-container ${unitContainerClass}">`;
 
         units.forEach(unit => {
             const unitLetter = unit.key.replace('unit', '');
+            let availabilityClass = '';
+            
+            // Add class for status coloring
+            if (unit.data.availability.toLowerCase() === 'available') {
+                availabilityClass = 'available';
+            } else if (unit.data.availability.toLowerCase() === 'sold') {
+                availabilityClass = 'sold';
+            } else if (unit.data.availability.toLowerCase() === 'reserved') {
+                availabilityClass = 'reserved';
+            }
+
             popupHTML += `
                 <div class="unit-info">
                     <h4 class="unit-title">Unit ${unitLetter} - Lot ${unit.data.lotNum}</h4>
                     <p><span class="label">Lot Area:</span> <span class="value">${unit.data.lotArea} sqm</span></p>
-                    <p><span class="label">Status:</span> <span class="value">${unit.data.availability}</span></p>
+                    <p><span class="label">Status:</span> <span class="value ${availabilityClass}">${unit.data.availability}</span></p>
                 </div>
             `;
         });
@@ -85,7 +116,9 @@ function showPropertyInfo(event, info) {
 
 // Function to hide property info popup
 function hidePropertyInfo() {
-    propertyInfo.classList.remove('visible');
+    if (propertyInfo) {
+        propertyInfo.classList.remove('visible');
+    }
 }
 
 // Function to create polygonal highlighted area from coordinates
@@ -139,11 +172,21 @@ function createHighlightedArea(coordsString, info, groupClass) {
     hitArea.addEventListener('mousemove', (e) => {
         showPropertyInfo(e, info);
         svg.classList.add('hover');
+        // Add hover class to specific polygon type
+        const polygonElement = svg.querySelector(`.${groupClass}-polygon`);
+        if (polygonElement) {
+            polygonElement.classList.add('hover');
+        }
     });
 
     hitArea.addEventListener('mouseleave', () => {
         hidePropertyInfo();
         svg.classList.remove('hover');
+        // Remove hover class from specific polygon type
+        const polygonElement = svg.querySelector(`.${groupClass}-polygon`);
+        if (polygonElement) {
+            polygonElement.classList.remove('hover');
+        }
     });
 
     return {
@@ -154,6 +197,27 @@ function createHighlightedArea(coordsString, info, groupClass) {
 
 // Function to setup highlighted areas
 function setupHighlightedAreas() {
+    console.log("Setting up highlighted areas...");
+    
+    // Get references to the elements
+    baseMap = document.getElementById('baseMap');
+    mapWrapper = document.getElementById('mapWrapper');
+    propertyInfo = document.getElementById('propertyInfo');
+    highlightContainer = document.getElementById('highlightContainer');
+    
+    // Check if required elements exist
+    if (!baseMap || !mapWrapper || !propertyInfo || !highlightContainer) {
+        console.error("Required map elements not found: ", {
+            baseMap: !!baseMap,
+            mapWrapper: !!mapWrapper,
+            propertyInfo: !!propertyInfo,
+            highlightContainer: !!highlightContainer
+        });
+        return;
+    }
+    
+    console.log("Map elements found, continuing initialization...");
+    
     // Clear existing highlights
     highlightContainer.innerHTML = '';
 
@@ -179,11 +243,15 @@ function setupHighlightedAreas() {
     highlightContainer.appendChild(hitAreaContainer);
 
     // Fetch the property data from JSON file
-    fetch('../data/propertyData.json')
-        .then(response => response.json())
+    fetch('../data/propertyData.json')  // Use relative path from pages directory
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Failed to load property data: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        })
         .then(data => {
-            // Store the property data globally
-            window.propertyData = data;
+            console.log("Property data loaded successfully:", Object.keys(data));
             
             // Create highlighted areas for each property
             for (const [type, properties] of Object.entries(data)) {
@@ -196,6 +264,7 @@ function setupHighlightedAreas() {
             
             // Scale highlights based on image size
             scaleHighlights();
+            console.log("Map initialization complete!");
         })
         .catch(error => {
             console.error("Error loading property data:", error);
@@ -204,6 +273,8 @@ function setupHighlightedAreas() {
 
 // Function to scale highlights based on image size
 function scaleHighlights() {
+    if (!baseMap || !highlightContainer) return;
+    
     const imageNaturalWidth = baseMap.naturalWidth || 1200; // Assuming natural width is 1200px
     const imageWidth = baseMap.offsetWidth;
     const scale = imageWidth / imageNaturalWidth;
@@ -218,28 +289,33 @@ function scaleHighlights() {
     highlightContainer.style.transformOrigin = 'top left';
 }
 
-// Get elements - wait for DOM to be fully loaded
-document.addEventListener('DOMContentLoaded', () => {
-    // Get references to DOM elements
-    const baseMap = document.getElementById('baseMap');
-    const mapWrapper = document.getElementById('mapWrapper');
-    const propertyInfo = document.getElementById('propertyInfo');
-    const highlightContainer = document.getElementById('highlightContainer');
+// Initialize the map when the DOM is ready
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("DOM Content Loaded - checking for map elements...");
     
-    // Make these variables global so they can be accessed by all functions
-    window.baseMap = baseMap;
-    window.mapWrapper = mapWrapper;
-    window.propertyInfo = propertyInfo;
-    window.highlightContainer = highlightContainer;
-
-    // If image is already loaded
-    if (baseMap.complete) {
-        setupHighlightedAreas();
+    // Check if we're on a page with the map
+    if (document.getElementById('mapContainer')) {
+        console.log("Map container found, initializing map...");
+        
+        const baseMapImg = document.getElementById('baseMap');
+        if (baseMapImg) {
+            if (baseMapImg.complete) {
+                console.log("Base map image already loaded, setting up highlights");
+                setupHighlightedAreas();
+            } else {
+                console.log("Waiting for base map image to load...");
+                baseMapImg.addEventListener('load', setupHighlightedAreas);
+            }
+        } else {
+            console.error("Base map image not found");
+        }
     } else {
-        // Wait for image to load
-        baseMap.addEventListener('load', setupHighlightedAreas);
+        console.log("Map container not found - not on map page");
     }
-
-    // Handle window resize
+    
+    // Handle window resize for responsive behavior
     window.addEventListener('resize', scaleHighlights);
 });
+
+// Export the setup function so it can be called from index.html
+window.setupHighlightedAreas = setupHighlightedAreas;

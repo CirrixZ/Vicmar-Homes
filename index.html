@@ -39,6 +39,7 @@
     <script src="assets/js/carousel.js"></script>
     <script src="assets/js/filters.js"></script>
     <script src="assets/js/dark-mode.js"></script>
+    <script src="assets/js/property-map.js"></script>
 
     <!-- Page loader script -->
     <script>
@@ -107,6 +108,35 @@
                             if (typeof initializeFilters === 'function') {
                                 initializeFilters();
                             }
+
+                            // Wait for DOM to be fully updated
+                            setTimeout(() => {
+                                // ADD THIS BLOCK for property map initialization
+                                console.log("Starting property map initialization");
+
+                                // Check if all required elements exist
+                                const baseMapEl = document.getElementById('baseMap');
+                                const mapWrapperEl = document.getElementById('mapWrapper');
+                                const propertyInfoEl = document.getElementById('propertyInfo');
+                                const highlightContainerEl = document.getElementById('highlightContainer');
+
+                                if (baseMapEl && mapWrapperEl && propertyInfoEl && highlightContainerEl) {
+                                    console.log("All map elements found, calling setupHighlightedAreas");
+
+                                    if (typeof setupHighlightedAreas === 'function') {
+                                        setupHighlightedAreas();
+                                    } else {
+                                        console.error('setupHighlightedAreas function not found');
+                                    }
+                                } else {
+                                    console.error("Missing required map elements:", {
+                                        baseMap: !!baseMapEl,
+                                        mapWrapper: !!mapWrapperEl,
+                                        propertyInfo: !!propertyInfoEl,
+                                        highlightContainer: !!highlightContainerEl
+                                    });
+                                }
+                            }, 300); // Slightly longer delay to ensure DOM is fully ready
                         }
 
                         if (pageName === 'listing') {
