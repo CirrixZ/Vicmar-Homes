@@ -1,12 +1,13 @@
 <!-- Hero Section with Background Image -->
 <div class="hero-section position-relative" style="overflow: hidden;">
     <!-- Background Image -->
-    <img src="assets/images/Properties/all_properties.png" alt="Vicmar Homes Background" class="w-100" 
-         style="height: 100%; object-fit: cover;">
-    
+    <img src="assets/images/Properties/all_properties.png" alt="Vicmar Homes Background" class="w-100"
+        style="height: 100%; object-fit: cover;">
+
     <!-- Overlay with all content inside -->
-    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(255, 255, 255, 0.3); padding-top: 85px;">
-        
+    <div class="position-absolute top-0 start-0 w-100 h-100"
+        style="background-color: rgba(255, 255, 255, 0.3); padding-top: 85px;">
+
         <!-- Carousel in a container with fixed width -->
         <div style="width: 90%; max-width: 800px; margin: auto;">
             <div id="propertyCarousel" class="carousel slide shadow" data-bs-ride="carousel">
@@ -63,8 +64,8 @@
                     </div>
 
                     <div class="carousel-item" style="cursor: pointer;" onclick="loadPage('listing')">
-                        <img src="assets/images/Properties/Socialized-Row-House6.jpg" class="d-block w-100" alt="Socialized Row Houses"
-                            style="height: 500px; object-fit: cover;">
+                        <img src="assets/images/Properties/Socialized-Row-House6.jpg" class="d-block w-100"
+                            alt="Socialized Row Houses" style="height: 500px; object-fit: cover;">
                         <div
                             class="carousel-overlay position-absolute bottom-0 start-0 bg-dark bg-opacity-50 text-white p-3">
                             <h5>Socialized Row House</h5>
@@ -93,9 +94,10 @@
                 </button>
             </div>
         </div>
-        
+
         <!-- CTA Box -->
-        <div style="position: absolute; bottom: 20px; right: 20px; background: rgba(255,255,255,0.8); padding: 10px; border-radius: 5px; max-width: 250px; z-index: 5;">
+        <div
+            style="position: absolute; bottom: 20px; right: 20px; background: rgba(255,255,255,0.8); padding: 10px; border-radius: 5px; max-width: 250px; z-index: 5;">
             <h5 class="mb-1 text-muted text-center">Find Your Dream Home</h5>
             <p class="small text-muted mb-0 text-center">Click Image To View Properties!</p>
         </div>
@@ -111,17 +113,24 @@
     <div id="guideLocationCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <a href="https://www.google.com/maps/dir/E2,+Batangas/13.7350822,121.1763615/@13.8436323,121.0886679,30860m/data=!3m1!1e3!4m9!4m8!1m5!1m1!1s0x33bd6c47c81960ad:0xb202f8fcae4d8cc4!2m2!1d121.1417444!2d13.9487744!1m0!3e0?entry=ttu" target="_blank" rel="noopener noreferrer">
-                    <img src="assets/images/Guidemap/G1.png" 
-                         alt="Google Maps Guide" 
-                         style="min-height: 650px; min-width:auto; display: block; margin: auto; border-radius: 10px;">
-                </a>   
+                <div class="ratio ratio-16x9">
+                    <a href="https://www.google.com/maps/dir/E2,+Batangas/13.7350822,121.1763615/@13.8436323,121.0886679,30860m/data=!3m1!1e3!4m9!4m8!1m5!1m1!1s0x33bd6c47c81960ad:0xb202f8fcae4d8cc4!2m2!1d121.1417444!2d13.9487744!1m0!3e0?entry=ttu"
+                        target="_blank" rel="noopener noreferrer"
+                        class="d-flex align-items-center justify-content-center">
+                        <img src="assets/images/Guidemap/G1.png" alt="Google Maps Guide" class="img-fluid rounded"
+                            style="max-height: 100%; max-width: 100%; object-fit: contain;">
+                    </a>
+                </div>
             </div>
             <div class="carousel-item">
-               <a href="https://www.google.com/maps/dir/SM+City+Batangas,+Brgy,+M.Pastor+Ave,+Village,+Batangas/13.7350822,121.1763615/@13.7477917,121.0806171,17836m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x33bd054889b5ba23:0xead1336cfef6785e!2m2!1d121.0688303!2d13.7559868!1m0!3e0?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
-                <img src="assets/images/Guidemap/G2.png"
-                 alt="Google Maps Guide" 
-                    class="img-fluid w-100" style="max-height: 700px; object-fit: cover;">
+                <div class="ratio ratio-16x9">
+                    <a href="https://www.google.com/maps/dir/SM+City+Batangas,+Brgy,+M.Pastor+Ave,+Village,+Batangas/13.7350822,121.1763615/@13.7477917,121.0806171,17836m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x33bd054889b5ba23:0xead1336cfef6785e!2m2!1d121.0688303!2d13.7559868!1m0!3e0?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank" rel="noopener noreferrer"
+                        class="d-flex align-items-center justify-content-center">
+                        <img src="assets/images/Guidemap/G2.png" alt="Google Maps Guide" class="img-fluid rounded"
+                            style="max-height: 100%; max-width: 100%; object-fit: contain;">
+                    </a>
+                </div>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#guideLocationCarousel"
@@ -133,7 +142,7 @@
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-        </button>     
+        </button>
     </div>
 
     <h6 class="text-center text-muted text-opacity-50 small mt-2">Specifications Subject to Modification</h6>
@@ -142,29 +151,29 @@
 <style>
     /* For desktop */
     .hero-section {
-      height: 680px;
+        height: 680px;
     }
-    
+
     /* For mobile */
     @media (max-width: 768px) {
-      .hero-section {
-        height: 560px;
-      }
-      
-      /* Carousel padding-top */
-      .hero-section > div {
-        padding-top: 70px !important;
-      }
+        .hero-section {
+            height: 560px;
+        }
+
+        /* Carousel padding-top */
+        .hero-section>div {
+            padding-top: 70px !important;
+        }
     }
-    
+
     /* For very small screens */
     @media (max-width: 576px) {
-      .hero-section {
-        height: 500px;
-      }
-      
-      .hero-section > div {
-        padding-top: 50px !important;
-      }
+        .hero-section {
+            height: 500px;
+        }
+
+        .hero-section>div {
+            padding-top: 50px !important;
+        }
     }
 </style>
