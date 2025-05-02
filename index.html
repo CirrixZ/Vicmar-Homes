@@ -17,6 +17,9 @@
 
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- Pannellum CSS for 360 viewer -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css" />
 </head>
 
 <body>
@@ -40,6 +43,10 @@
     <script src="assets/js/filters.js"></script>
     <script src="assets/js/dark-mode.js"></script>
     <script src="assets/js/property-map.js"></script>
+
+    <!-- Pannellum JS for 360 viewer -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <script src="assets/js/360-viewer.js"></script>
 
     <!-- Page loader script -->
     <script>
@@ -312,6 +319,15 @@
                                 secondFloorAreas.appendChild(row);
                             });
                         }
+
+                        // Initialize the 360 viewer after all property details are loaded
+                        setTimeout(() => {
+                            if (typeof initialize360Viewer === 'function') {
+                                initialize360Viewer(propertyId);
+                            } else {
+                                console.error("360 viewer initialization function not found");
+                            }
+                        }, 200);
                     } else {
                         console.error('Property not found:', propertyId);
                         document.getElementById('content-container').innerHTML = `
