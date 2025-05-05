@@ -4,7 +4,7 @@
     "name": "Single Attached Unit (Deluxe - Typical)",
     "type": "duplex",
     "location": "Batangas",
-    "price": " 1,000,000",
+    "price": " 0",
     "lotArea": "120 sqm",
     "floorArea": "90 sqm",
     "bedrooms": {
@@ -99,7 +99,7 @@
     "name": "Single Attached Unit (Deluxe - Suite)",
     "type": "duplex", 
     "location": "Batangas",
-    "price": "4,500,000",
+    "price": "0",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
@@ -189,7 +189,7 @@
     "name": "Single Attached Unit (Premiere)",
     "type": "duplex",
     "location": "Batangas",
-    "price": " 4,500,000",
+    "price": "0",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
@@ -279,7 +279,7 @@
     "name": "Triplex (Center Unit)",
     "type": "triplex",
     "location": "Batangas",
-    "price": "4,500,000",
+    "price": "0",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
@@ -369,7 +369,7 @@
     "name": "Triplex (End Unit A)",
     "type": "triplex",
     "location": "Batangas",
-    "price": "4,500,000",
+    "price": "0",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
@@ -459,7 +459,7 @@
     "name": "Triplex (End Unit B)",
     "type": "triplex",
     "location": "Batangas",
-    "price": "4,500,000",
+    "price": "0",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
@@ -549,7 +549,7 @@
     "name": "Rowhouse (Economic Unit)",
     "type": "economic-unit",
     "location": "Batangas",
-    "price": "4,500,000",
+    "price": "0",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
@@ -639,7 +639,7 @@
     "name": "Rowhouse (Socialized Unit)",
     "type": "socialized-unit",
     "location": "Batangas",
-    "price": "4,500,000",
+    "price": "0",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
@@ -704,7 +704,7 @@
     "name": "Rowhouse (Compound Unit)",
     "type": "compound-unit",
     "location": "Batangas",
-    "price": "4,500,000",
+    "price": "0",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
@@ -794,7 +794,7 @@
     "name": "Corner Unit",
     "type": "corner-unit",
     "location": "Batangas",
-    "price": "4,500,000",
+    "price": "0",
     "lotArea": "100 sqm",
     "floorArea": "85 sqm",
     "bedrooms": {
