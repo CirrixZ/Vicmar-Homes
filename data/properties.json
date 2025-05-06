@@ -27,7 +27,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Duplex-Unit-Deluxe-GF.png",
+        "image": "Duplex-Unit-Deluxe-GF.jpg",
         "areas": [
           {
             "name": "Parking",
@@ -64,7 +64,7 @@
         ]
       },
       "secondFloor": {
-        "image": "Duplex-Unit-Deluxe-SF.png",
+        "image": "Duplex-Unit-Deluxe-SF.jpg",
         "areas": [
           {
             "name": "Family Room",
@@ -121,7 +121,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Duplex-Unit-Deluxe-Suite-GF.png",
+        "image": "Duplex-Unit-Deluxe-Suite-GF.jpg",
         "areas": [
           {
             "name": "Parking",
@@ -158,7 +158,7 @@
         ]
       },
       "secondFloor": {
-        "image": "Duplex-Unit-Deluxe-Suite-SF.png",
+        "image": "Duplex-Unit-Deluxe-Suite-SF.jpg",
         "areas": [
           {
             "name": "Family Room",
@@ -211,7 +211,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Duplex-Unit-Premiere-GF.png",
+        "image": "Duplex-Unit-Premiere-GF.jpg",
         "areas": [
           {
             "name": "Parking",
@@ -248,7 +248,7 @@
         ]
       },
       "secondFloor": {
-        "image": "Duplex-Unit-Premiere-SF.png",
+        "image": "Duplex-Unit-Premiere-SF.jpg",
         "areas": [
           {
             "name": "Family Room",
@@ -301,7 +301,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Triplex-End-Unit-B-GF.png",
+        "image": "Triplex-End-Unit-B-GF.jpg",
         "areas": [
           {
             "name": "Parking",
@@ -338,7 +338,7 @@
         ]
       },
       "secondFloor": {
-        "image": "Triplex-End-Unit-B-SF.png",
+        "image": "Triplex-End-Unit-B-SF.jpg",
         "areas": [
           {
             "name": "Family Room",
@@ -391,7 +391,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Triplex-End-Unit-A-GF.png",
+        "image": "Triplex-End-Unit-A-GF.jpg",
         "areas": [
           {
             "name": "Parking",
@@ -428,7 +428,7 @@
         ]
       },
       "secondFloor": {
-        "image": "Triplex-End-Unit-A-SF.png",
+        "image": "Triplex-End-Unit-A-SF.jpg",
         "areas": [
           {
             "name": "Family Room",
@@ -481,7 +481,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Triplex-End-Unit-B-GF.png",
+        "image": "Triplex-End-Unit-B-GF.jpg",
         "areas": [
           {
             "name": "Parking",
@@ -518,7 +518,7 @@
         ]
       },
       "secondFloor": {
-        "image": "Triplex-End-Unit-B-SF.png",
+        "image": "Triplex-End-Unit-B-SF.jpg",
         "areas": [
           {
             "name": "Family Room",
@@ -571,7 +571,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Economic-Unit-GF.png",
+        "image": "Economic-Unit-GF.jpg",
         "areas": [
           {
             "name": "Parking",
@@ -608,7 +608,7 @@
         ]
       },
       "secondFloor": {
-        "image": "Economic-Unit-SF.png",
+        "image": "Economic-Unit-SF.jpg",
         "areas": [
           {
             "name": "Family Room",
@@ -661,7 +661,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Rowhouse-Socialized-Unit-GF.png",
+        "image": "Rowhouse-Socialized-Unit-GF.jpg",
         "areas": [
           {
             "name": "Parking",
@@ -726,7 +726,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Compound-Unit-GF.png",
+        "image": "Compound-Unit-GF.jpg",
         "areas": [
           {
             "name": "Parking",
@@ -763,7 +763,7 @@
         ]
       },
       "secondFloor": {
-        "image": "Compound-Unit-Loft.png",
+        "image": "Compound-Unit-Loft.jpg",
         "areas": [
           {
             "name": "Family Room",
@@ -816,7 +816,7 @@
     },
     "floorPlans": {
       "groundFloor": {
-        "image": "Corner-Unit-GF.png",
+        "image": "Corner-Unit-GF.jpg",
         "areas": [
           {
             "name": "Parking",
@@ -853,7 +853,7 @@
         ]
       },
       "secondFloor": {
-        "image": "Corner-Unit-SF.png",
+        "image": "Corner-Unit-SF.jpg",
         "areas": [
           {
             "name": "Family Room",
