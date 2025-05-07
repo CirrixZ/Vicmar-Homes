@@ -1,51 +1,53 @@
 // Function to initialize the 360 panorama viewer
 function initialize360Viewer(propertyId) {
     console.log("Initializing 360 viewer for property ID:", propertyId);
-    
+
     // Check if the panorama container exists
     const panoramaElement = document.getElementById('panorama');
     if (!panoramaElement) {
         console.error('Panorama container not found');
         return;
     }
-    
+
     // Check if Pannellum is loaded
     if (typeof pannellum === 'undefined') {
         console.error('Pannellum library not loaded');
         return;
     }
-    
-    // Path to the 360 image - can be customized per property if needed
-    let panoramaPath = 'assets/images/properties/360-view.jpg';
-    
-    // If you want to have different 360 views for different properties, 
-    // you could use propertyId to determine which image to load
-    // Example:
-    // if (propertyId === 'property1') {
-    //     panoramaPath = 'assets/images/properties/property1-360.jpg';
-    // } else if (propertyId === 'property2') {
-    //     panoramaPath = 'assets/images/properties/property2-360.jpg';
-    // }
-    
+
+    // Map property IDs to their corresponding 360 images
+    const property360Images = {
+        'duplex-unit-deluxe1': 'assets/images/360/360-Duplex-Deluxe.jpg',
+        'duplex-unit-premiere': 'assets/images/360/360-Duplex-Primere.jpg',
+        'corner-unit': 'assets/images/360/360-Corner-Unit.jpg',
+        // Add more properties as needed
+    };
+
+    // Define a placeholder image to use when no 360 image is available
+    const placeholderImage = 'https://placehold.co/600x400?text=360+Not+Found';
+
+    // Get the correct image path based on propertyId or use a default if not found
+    let panoramaPath = property360Images[propertyId] || placeholderImage;
+
     // Initialize the panorama viewer with settings
     try {
         pannellum.viewer('panorama', {
             type: 'equirectangular',
             panorama: panoramaPath,
             autoLoad: true,
-            autoRotate: -2, // Negative value for counterclockwise rotation (deg/s)
+            autoRotate: -2,
             compass: true,
             showZoomCtrl: true,
             showFullscreenCtrl: true,
-            hfov: 120, // Horizontal field of view
+            hfov: 120,
             minHfov: 50,
             maxHfov: 120,
-            pitch: 0, // Initial pitch
-            yaw: 0, // Initial yaw
+            pitch: 0,
+            yaw: 0,
             showControls: true,
             hotSpotDebug: false
         });
-        console.log("360 viewer initialized successfully");
+        console.log("360 viewer initialized successfully with image:", panoramaPath);
     } catch (error) {
         console.error("Error initializing 360 viewer:", error);
     }
