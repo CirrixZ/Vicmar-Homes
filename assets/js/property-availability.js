@@ -62,7 +62,7 @@ function displayPropertyCards(properties) {
 
       card.innerHTML = `
       <div class="card h-100 shadow-sm">
-        <img src="assets/images/Properties/${property.images?.main || 'placeholder.jpg'}" 
+        <img src="assets/images/properties/${property.images?.main || 'placeholder.jpg'}" 
              class="card-img-top" alt="${property.name || 'Property'}" 
              style="height: 200px; object-fit: cover;"
              onerror="this.src='https://via.placeholder.com/300x200?text=No+Image'">
