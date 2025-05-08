@@ -115,6 +115,22 @@ function parseNumericPrice(priceString) {
   return parseInt(numericString) || 0;
 }
 
+/**
+ * Determine if a property is available for detailed viewing
+ * This is the same function from property-availability.js
+ * @param {string} propertyId - The ID of the property
+ * @returns {boolean} - Whether the property details are available
+ */
+function isPropertyDetailsAvailable(propertyId) {
+  // Convert property ID to lowercase for case-insensitive comparison
+  const id = propertyId.toLowerCase();
+  
+  // Check if the property ID matches one of the priority types
+  return id.includes('duplex') || 
+         id === 'corner-unit' || 
+         id === 'rowhouse-economic-unit';
+}
+
 // Display filtered results in the results box
 function displayFilteredResults(properties) {
   const resultsContainer = document.getElementById('results-list');
@@ -137,15 +153,25 @@ function displayFilteredResults(properties) {
     const propertyItem = document.createElement('div');
     propertyItem.className = 'py-2 border-bottom';
 
+    // Check if property details are available
+    const detailsAvailable = isPropertyDetailsAvailable(property.id);
+    
+    // Create button with appropriate styling and functionality
+    const buttonHtml = detailsAvailable ? 
+      `<button class="btn btn-sm btn-outline-success" 
+              onclick="loadPage('property-details', {id: '${property.id}'})">
+        View Details
+      </button>` :
+      `<button class="btn btn-sm btn-outline-secondary" disabled>
+        Coming Soon
+      </button>`;
+
     propertyItem.innerHTML = `
       <div class="d-flex justify-content-between align-items-center">
         <div>
           <h6 class="mb-0">${property.name || 'Unnamed Property'}</h6>
         </div>
-        <button class="btn btn-sm btn-outline-success" 
-                onclick="loadPage('property-details', {id: '${property.id}'})">
-          View Details
-        </button>
+        ${buttonHtml}
       </div>
     `;
 
