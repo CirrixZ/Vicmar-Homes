@@ -24,7 +24,7 @@ function initialize360Viewer(propertyId) {
     };
 
     // Define a placeholder image to use when no 360 image is available
-    const placeholderImage = 'https://placehold.co/600x400?text=360+Not+Found';
+    const placeholderImage = 'https://placehold.co/600x400?text=360+Not+Available';
 
     // Get the correct image path based on propertyId or use a default if not found
     let panoramaPath = property360Images[propertyId] || placeholderImage;
