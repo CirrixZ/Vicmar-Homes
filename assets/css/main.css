@@ -1,6 +1,6 @@
 body {
   background-color: #e8f5e9;
-  /* This is a light green color */
+  /* This is a light green color for the background of the whole website */
 }
 
 .logo-clickable {
@@ -10,7 +10,7 @@ body {
 .navbar {
   position: relative;
   z-index: 1000;
-  /* High z-index to stay on top */
+  /* High z-index for navbar to stay on top */
 }
 
 #navbar-container {
@@ -85,17 +85,20 @@ body {
 
 
 .navbar {
-  height: 80px; /* Fixed height */
+  height: 80px;
+  /* Fixed height */
   max-height: 80px;
 }
 
 .navbar-brand img {
-  height: 40px; /* Fixed logo height */
+  height: 40px;
+  /* Fixed logo height */
   width: auto;
 }
 
 .navbar .nav-link {
-  font-size: 1rem; /* Standard font size */
+  font-size: 1rem;
+  /* Standard font size */
 }
 
 /* For smaller screens */
@@ -108,16 +111,19 @@ body {
     background-color: white;
     z-index: 1000;
     padding: 1rem;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 }
 
 /* Hero section(home page) with consistent proportions */
 .hero-section {
   position: relative;
-  height: 75vh; /* Scales with viewport height */
-  min-height: 500px; /* Minimum height */
-  max-height: 800px; /* Maximum height */
+  height: 75vh;
+  /* Scales with viewport height */
+  min-height: 500px;
+  /* Minimum height */
+  max-height: 800px;
+  /* Maximum height */
   overflow: hidden;
 }
 
@@ -129,17 +135,49 @@ body {
 
 /* Carousel container with consistent size */
 .carousel-container {
-  width: 80%; /* Percentage width for responsiveness */
-  max-width: 1000px; /* Maximum width */
+  width: 80%;
+  /* Percentage width for responsiveness */
+  max-width: 1000px;
+  /* Maximum width */
   margin: 0 auto;
 }
 
 .carousel-item img {
-  height: 55vh; /* Proportional to viewport */
-  min-height: 350px; /* Minimum height */
-  max-height: 600px; /* Maximum height */
+  height: 55vh;
+  /* Proportional to viewport */
+  min-height: 350px;
+  /* Minimum height */
+  max-height: 600px;
+  /* Maximum height */
   object-fit: cover;
   width: 100%;
+}
+
+#guideLocationCarousel {
+  margin-top: 20px;
+  /* Reduce space below the heading */
+  margin-bottom: 20px;
+  /* Reduce space above the specification text */
+}
+
+.carousel .ratio-16x9 {
+  max-height: 500px;
+}
+
+#guideLocationCarousel .carousel-control-prev,
+#guideLocationCarousel .carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#guideLocationCarousel .carousel-control-prev-icon,
+#guideLocationCarousel .carousel-control-next-icon {
+  width: 24px;
+  height: 24px;
 }
 
 /* CTA box with consistent positioning */
@@ -156,9 +194,11 @@ body {
 
 /* Typography consistency */
 .hero-section h5 {
-  font-size: clamp(1rem, 2vw, 1.3rem); /* Responsive text size */
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  /* Responsive text size */
 }
 
 .hero-section h6 {
-  font-size: clamp(0.8rem, 1.5vw, 1rem); /* Responsive text size */
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+  /* Responsive text size */
 }
